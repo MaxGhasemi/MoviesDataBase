@@ -64,6 +64,9 @@ This a simple step by step of what I did and where.
 - Download the Database in Dbeaver
 - Use SQL to remove rows with null values
 - Create custom tables needed for Content and Collab filtering
+- Create Visualization of the movies based on thier rating and popularity
+  ![Quadrant](https://github.com/MaxGhasemi/MoviesDataBase/assets/120604692/c16fdc23-9c3c-434b-974b-6a91e2d937a1)
+
 
 ### Step 2: Collaborative Filtering 
 - Create a similarity matrix and compute cosine similarity
@@ -88,6 +91,9 @@ This a simple step by step of what I did and where.
   - Add, at most, the 5 most similar movies to the given title to the final recommendations list
   - If the list is not at 10 movies, fill in the list with unseen High Rated/High Popularity Scored movies
 - See Hybrid Visualization folder to get visual on how this works
+![Hybrid](https://github.com/MaxGhasemi/MoviesDataBase/assets/120604692/69a8c2b7-1024-4688-8ccf-efc351165460)
+![Hybrid2](https://github.com/MaxGhasemi/MoviesDataBase/assets/120604692/eec70af7-f159-43c8-acf3-4063f1f1c92c)
+![Hybrid3](https://github.com/MaxGhasemi/MoviesDataBase/assets/120604692/44bdcea0-34e7-45c5-96fa-a78958907d9e)
 
 ## Goal
 This project was a great way for me to get creative with a very ambigious and general task, build a movie recommendation system. There is no right answer, so this project is a way to really get creative and see if your system stacks up against Netflix. 
