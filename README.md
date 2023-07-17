@@ -68,18 +68,19 @@ This a simple step by step of what I did and where.
   ![Quadrant](https://github.com/MaxGhasemi/MoviesDataBase/assets/120604692/c16fdc23-9c3c-434b-974b-6a91e2d937a1)
 
 
-### Step 2: Collaborative Filtering 
+### Step 2: Collaborative Filtering in PyCharm
+- Upload all important tables from Dbeaver using sqlite3
 - Create a similarity matrix and compute cosine similarity
 - Convert matrix to dataframe, find 5 most similar users
 - Create a for loop to get every movie those similar users have rated over a 4 or higher and that at least 3 of those similar user's have seen.
 - Extract the first 5 movies to the final recommendations list
 
-### Step 3: Content Based Filtering 
+### Step 3: Content Based Filtering in PyCharm
 - Create a similarity matrix and compute cosine similarity
 - Convert matrix to dataframe
 - Create a new dataframe that has the 10 most similar movies for each movie title
 
-### Step 4: Creating the Hybrid
+### Step 4: Creating the Hybrid in PyCharm
 - Load the content and collaborative dataframes
 - Start a for loop
   - Get a list of every movie watched by that user
