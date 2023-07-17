@@ -4,20 +4,56 @@ This repository will allow you to create your own movie recommendation system! U
 There is no right answer, so the possibilites are endless. Check out my project to see how I made my Hybrid Recommendation System.
 
 ## Table of Contents
+- [Data](#Data)
 - [Technology](#Technology)
 - [Features](#Features)
 - [Goal](#Goal)
 
+## Data
+The database file consist of 3 tables
+
+MOVIES
+-MovieID (INT)
+-Title (TEXT)
+-Genres (TEXT)
+
+RATINGS
+-UserID (INT)
+-MovieID (INT)
+-Tag (TEXT)
+-Timestamp (NUMERIC)
+
+TAGS
+-UserID (INT)
+-MovieID (INT)
+-Tag (TEXT)
+-Timestamp (NUMERIC)
+
+You can read the database file into DBeaver and work from there.
+
+Then once you have done all the querying in SQL to make the desirebale tables, then you can use the "sqllite3" package in Python to export those to Pycharm. 
+
 ## Technology
+
+Software
 - DBeaver
 - PyCharm
+
+Python Packages
+- scipy.spatial import distance
+- numpy
+- pandas 
+- sqlite3
+- sklearn.metrics.pairwise import cosine_similarity
+- collections import Counter
+- ast
   
-## Features 
+## Skills Demonstrated 
 - SQL
 - Python
 - Content-Based Filtering 
 - Collaborative Filtering
-- Hybrid System
+- Hybrid System Construction
 - Tableau
 
 ## Goal
