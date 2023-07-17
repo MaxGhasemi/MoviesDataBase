@@ -13,25 +13,25 @@ There is no right answer, so the possibilites are endless. Check out my project 
 The database file consist of 3 tables
 
 MOVIES
--MovieID (INT)
--Title (TEXT)
--Genres (TEXT)
+- MovieID (INT)
+- Title (TEXT)
+- Genres (TEXT)
 
 RATINGS
--UserID (INT)
--MovieID (INT)
--Tag (TEXT)
--Timestamp (NUMERIC)
+- UserID (INT)
+- MovieID (INT)
+- Tag (TEXT)
+- Timestamp (NUMERIC)
 
 TAGS
--UserID (INT)
--MovieID (INT)
--Tag (TEXT)
--Timestamp (NUMERIC)
+- UserID (INT)
+- MovieID (INT)
+- Tag (TEXT)
+- Timestamp (NUMERIC)
 
 You can read the database file into DBeaver and work from there.
 
-Then once you have done all the querying in SQL to make the desirebale tables, then you can use the "sqllite3" package in Python to export those to Pycharm. 
+Then once you have done all the querying in SQL to make the desirebale tables, then you can use the "sqlite3" package in Python to export those to Pycharm. 
 
 ## Technology
 
