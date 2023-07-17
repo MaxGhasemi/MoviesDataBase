@@ -1,0 +1,640 @@
+------ Data Cleaning -------
+
+-- Movies Table 
+
+-- View the Data 
+SELECT *
+FROM MOVIES;
+
+-- Create New column for Year Released
+ALTER TABLE Movies 
+ADD COLUMN 'Year' VARCHAR(4);
+
+
+-- View the Table with new column  
+SELECT *
+FROM MOVIES;
+
+
+--- Fill in 'Year' Column
+UPDATE movies
+SET 'Year' = CASE
+        WHEN CHARINDEX('(19', title) = 0 THEN NULL -- return NULL if no (19xx) found
+        ELSE SUBSTRING(title, CHARINDEX('(19', title) + 1, 4) -- return the 4 digits that represent the year
+        -- return 4 digits starting from the first (19
+    END;
+   
+-- View the Table with updated column  
+SELECT *
+FROM MOVIES;   
+
+-- Remove the Year from the title column 
+UPDATE MOVIES
+SET title = TRIM(REPLACE(title, ('('| year| ')'), ''));
+
+-- View the Table with updated 'title' column  
+SELECT *
+FROM MOVIES;   
+
+
+-- Remove the '()' from the title column 
+UPDATE MOVIES
+SET title = REPLACE(title , '()' , "");
+
+-- View the Table with updated 'title' column  
+SELECT *
+FROM MOVIES;  
+
+-- Remove Null values
+DELETE FROM MOVIES
+WHERE title IS NULL OR Year IS NULL;
+
+-- Remove Movies with " (no genres listed) "
+DELETE FROM MOVIES
+WHERE genres IS '(no genres listed)';
+
+-- View the Table with updated 'title' column  
+SELECT *
+FROM MOVIES;  
+
+SELECT *
+FROM MOVIES
+WHERE movieID == 2804;  
+
+
+------------------------- GENRES -------------------------------
+-- Create new Table for Genres 
+DROP TABLE IF EXISTS genres;
+CREATE TABLE genres (
+  movieID INTEGER,
+  title VARCHAR(100),
+  genres VARCHAR(100),
+  YEAR VARCHAR(4));
+
+-- View new columns
+SELECT *
+FROM genres ;  
+
+-- Move all Movies to Genre Table 
+INSERT INTO genres (movieID, title, genres, Year)
+SELECT movieID, title, genres, Year
+FROM MOVIES;
+
+-- View genres Table
+SELECT * 
+FROM GENRES;
+
+-- View All the Distinct Genres
+SELECT DISTINCT genres FROM genres;
+
+--Western
+--War
+--Thriller
+--Sci-Fi
+--Romance
+--Mystery
+--Musical
+--Horror
+--Film-Noir
+--Fantasy
+--Drama
+--Documentary
+--IMAX
+--Crime
+--Comedy
+--Children
+--Animation
+--Adventure
+--Action
+--(no genres listed)
+
+
+DROP TABLE IF EXISTS movies_one_hot_encoding;
+CREATE TABLE movies_one_hot_encoding AS
+SELECT movieID, title , genres, Year, 
+CASE 
+	WHEN lower(genres) LIKE '%action%' THEN 1
+	ELSE 0
+	END AS 'action',
+CASE 
+	WHEN lower(genres) LIKE '%adventure%'  THEN 1
+	ELSE 0
+	END AS 'adventure',
+CASE
+	WHEN lower(genres) LIKE '%animation%' THEN 1
+	ELSE 0
+	END AS 'animation',
+CASE 
+	WHEN lower(genres) LIKE '%children%' THEN 1
+	ELSE 0
+	END AS 'children',
+CASE 
+	WHEN lower(genres) LIKE '%comedy%' THEN 1
+	ELSE 0
+	END AS 'comedy',
+CASE
+	WHEN lower(genres) LIKE '%crime%' THEN 1
+	ELSE 0
+	END AS 'crime',
+CASE 
+	WHEN lower(genres) LIKE '%imax%' THEN 1
+	ELSE 0
+	END AS 'imax',
+CASE 
+	WHEN lower(genres) LIKE '%documentary%' THEN 1
+	ELSE 0
+	END AS 'documentary',
+CASE 
+	WHEN lower(genres) LIKE '%drama%' THEN 1
+	ELSE 0
+	END AS 'drama',
+CASE
+	WHEN lower(genres) LIKE '%fantasy%' THEN 1
+	ELSE 0
+	END AS 'fantasy',
+CASE
+	WHEN lower(genres) LIKE '%film-noir%' THEN 1
+	ELSE 0
+	END AS 'film_noir',
+CASE 
+	WHEN lower(genres) LIKE '%horror%' THEN 1
+	ELSE 0
+	END AS 'horror',
+CASE
+	WHEN lower(genres) LIKE '%musical%' THEN 1
+	ELSE 0
+	END AS 'musical',
+CASE
+	WHEN lower(genres) LIKE '%mystery%' THEN 1
+	ELSE 0
+	END AS 'mystery',
+CASE 
+	WHEN lower(genres) LIKE '%romance%' THEN 1
+	ELSE 0
+	END AS 'romance',
+CASE
+	WHEN lower(genres) LIKE '%sci-fi%' THEN 1
+	ELSE 0
+	END AS 'sci_fi',
+CASE
+	WHEN lower(genres) LIKE '%thriller%' THEN 1
+	ELSE 0
+	END AS 'thriller',
+CASE 
+	WHEN lower(genres) LIKE '%war%' THEN 1
+	ELSE 0
+	END AS 'war',
+CASE 
+	WHEN lower(genres) LIKE '%western%' THEN 1
+	ELSE 0
+	END AS 'western'
+FROM movies;
+
+-- Look at New Table
+
+SELECT * FROM movies_one_hot_encoding; 
+
+-------------- Ratings -------------------
+
+SELECT * 
+FROM RATINGS;
+
+-------------- Tags  -------------------
+
+SELECT * 
+FROM TAGS;
+
+
+--------- EVERYTHING TABLE ----------------
+
+---- Create a Joined Table, Using a Inner Join on the Rating column 
+DROP TABLE IF EXISTS combined;
+CREATE TABLE combined AS
+SELECT *
+FROM Ratings r 
+INNER JOIN movies_one_hot_encoding mohe 
+ON r.movieID = mohe.movieID;
+
+-- View New Table 
+SELECT * 
+FROM combined;
+
+-- Drop Duplicated movieID column 
+ALTER TABLE combined 
+DROP COLUMN 'movieID:1';
+
+-- View Final Combined Table 
+SELECT * 
+FROM combined;
+
+-------- Create Min-Max Scaling Columns For Users ---------------
+
+-- Test Code 
+SELECT userID, SUM(ACTION)
+FROM COMBINED
+GROUP BY userID;
+
+-- Create a normalized table
+DROP TABLE IF EXISTS total_watched; 
+CREATE TABLE IF NOT EXISTS total_watched AS
+SELECT userID, 
+	COUNT(movieID) AS Total_Movies_Watched, 
+	SUM(action) AS Total_Action, 
+	SUM(adventure) AS Total_Adventure, 
+	SUM(animation) AS Total_Animation, 
+	SUM(children) AS Total_Children, 
+	SUM(comedy) AS Total_Comedy, 
+	SUM(crime) AS Total_Crime,
+	SUM(documentary) AS Total_Documentary, 
+	SUM(drama) AS Total_Drama, 
+	SUM(fantasy) AS Total_Fantasy, 
+	SUM(film_noir) AS Total_Film_Noir,
+	SUM(horror) AS Total_Horror,
+	SUM(imax) AS Total_IMAX, 
+	SUM(musical) AS Total_Musical, 
+	SUM(mystery) AS Total_Mystery,
+	SUM(romance) AS Total_Romance, 
+	SUM(sci_fi) AS Total_Sci_Fi, 
+	SUM(thriller) AS Total_Thriller,
+	SUM(war) AS Total_War, 
+	SUM(western) AS Total_Western
+FROM combined
+GROUP BY userID;
+
+-- View Final Scaled Table 
+SELECT * 
+FROM total_watched;
+
+
+--- Find the Max and Min values 
+
+-- Test Run 
+SELECT MAX(Total_Action, Total_Adventure, Total_Children) AS highest_value
+FROM total_watched 
+WHERE userID = 1;
+
+
+-- Get Max and Min of Each Column 
+DROP TABLE IF EXISTS max_min_watched; 
+CREATE TABLE IF NOT EXISTS max_min_watched AS
+SELECT userID,
+MAX( Total_Action,Total_Adventure,Total_Animation,Total_Children,Total_Comedy,Total_Crime,Total_Documentary,Total_Drama,Total_Fantasy,Total_Film_Noir,Total_Horror,Total_IMAX,Total_Musical,Total_Mystery,Total_Romance,Total_Sci_Fi,Total_Thriller,Total_War,Total_Western) AS Max_Watched,
+MIN( Total_Action,Total_Adventure,Total_Animation,Total_Children,Total_Comedy,Total_Crime,Total_Documentary,Total_Drama,Total_Fantasy,Total_Film_Noir,Total_Horror,Total_IMAX,Total_Musical,Total_Mystery,Total_Romance,Total_Sci_Fi,Total_Thriller,Total_War,Total_Western) AS Min_Watched
+FROM total_watched 
+GROUP BY userID;
+
+-- View New Table
+SELECT * FROM max_min_watched ;
+
+-- Second, Join the tables 
+
+--Join the table 
+DROP TABLE IF EXISTS combined_max_min; 
+CREATE TABLE IF NOT EXISTS combined_max_min AS
+SELECT *
+FROM total_watched tw
+INNER JOIN max_min_watched m
+ON tw.userID = m.userID;
+
+-- View New Table
+SELECT * FROM combined_max_min;
+
+-- Drop Duplicated userID column 
+ALTER TABLE combined_max_min 
+DROP COLUMN 'userID:1';
+
+-- View New Table
+SELECT * FROM combined_max_min;
+
+-- Apply Min and Max Scaling
+DROP TABLE IF EXISTS final_min_max; 
+CREATE TABLE IF NOT EXISTS final_min_max AS
+SELECT userID, 
+	(((Total_Action*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Action, 
+	(((Total_Adventure*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Adventure,
+	(((Total_Animation*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Animation,
+	(((Total_Children*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Children,
+	(((Total_Comedy*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Comedy, 
+	(((Total_Crime*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Crime,
+	(((Total_Documentary*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Documentary,
+	(((Total_Drama*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Drama,---
+	(((Total_Fantasy*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Fantasy,
+	(((Total_Film_Noir*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Film_Noir, 
+	(((Total_Horror*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Horror,
+	(((Total_IMAX*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_IMAX,
+	(((Total_Musical*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Musical, 
+	(((Total_Mystery*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Mystery, 
+	(((Total_Romance*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Romance,
+	(((Total_Sci_Fi*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Sci_Fi,
+	(((Total_Thriller*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Thriller,
+	(((Total_War*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_War,
+	(((Total_Western*1.0)-Min_Watched)/((Max_Watched*1.0)-Min_Watched)) AS Scaled_Western
+FROM combined_max_min 
+GROUP BY userID;
+
+-- View Final Scaled Table 
+SELECT * 
+FROM final_min_max;
+
+-- Total Movies Watched is a Count while multiple movies can have multiple genres, why the number of genres is more than total movies watched
+
+
+
+-------------------- CONTENT BASED FILTERING TABLES ------------------------
+
+
+---- Now we want to see what specific movies overlap with eachother 
+
+-- Look at the ratings table
+SELECT * 
+FROM Ratings;
+
+-- Look at the Movies table
+SELECT * 
+FROM Movies;
+
+-- Join the "Movies" and "Ratings" table
+DROP TABLE IF EXISTS movie_and_ratings;
+CREATE TABLE movie_and_ratings AS
+SELECT m.title ,r.userID , r.rating 
+FROM Ratings r
+INNER JOIN Movies m 
+ON r.movieID = m.movieID 
+ORDER BY m.movieID ;
+
+-- Look at the Movies table
+SELECT * 
+FROM movie_and_ratings;
+
+
+-------------------- CONTENT BASED FILTERING TABLES ------------------------
+
+--- Create a new table with....
+-- Average of all the ratings for each movie
+-- Column For the times each movie was watched
+
+DROP TABLE IF EXISTS content_based_movie;
+CREATE TABLE content_based_movie AS
+SELECT 
+  movieID, 
+  ROUND(AVG(rating),2) AS Average_Rating, 
+  COUNT(DISTINCT userID) AS Times_Watched
+FROM 
+  movie_and_ratings
+GROUP BY 
+  movieID;
+ 
+ -- Look at the New Table 
+SELECT * 
+FROM content_based_movie;
+
+-- Create Table for Tableau 
+ DROP TABLE IF EXISTS tableu_explor;
+CREATE TABLE tableu_explor AS
+SELECT 
+  cbm.movieID, 
+  m.title,
+  cbm.Average_Rating, 
+  cbm.Times_Watched
+FROM 
+  content_based_movie cbm
+INNER JOIN Movies m 
+ON cbm.movieID = m.movieID 
+ORDER BY m.movieID ;
+
+ 
+ -- Look at the New Table 
+SELECT * 
+FROM tableu_explor;
+
+SELECT AVG(Average_Rating), AVG(Times_Watched)
+FROM tableu_explor
+WHERE Times_Watched >= 50;
+
+SELECT COUNT(DISTINCT movieID)
+FROM tableu_explor te  
+WHERE Times_Watched < 50;
+
+SELECT COUNT(DISTINCT movieID)
+FROM tableu_explor
+WHERE Times_Watched >= 50;
+
+SELECT COUNT(DISTINCT movieID)
+FROM tableu_explor;
+
+SELECT AVG(Average_Rating), AVG(Times_Watched)
+FROM tableu_explor;
+
+
+
+
+-- Create New Table with Scaled Watched
+-- Apply Min and Max Scaling
+DROP TABLE IF EXISTS scaled_content_based_movie; 
+CREATE TABLE IF NOT EXISTS scaled_content_based_movie AS
+SELECT 
+  movieID, 
+  Average_Rating, 
+  Times_Watched,
+  (((Times_Watched*1.0)-(SELECT MIN(Times_Watched) FROM content_based_movie))/(((SELECT MAX(Times_Watched) FROM content_based_movie)*1.0)-(SELECT MIN(Times_Watched) FROM content_based_movie))) AS Scaled_Watched
+  FROM content_based_movie;
+
+-- View New Scaled Table 
+SELECT * 
+FROM scaled_content_based_movie;
+
+-- Bin the Scaled Watch to Create a Popularity Scale 
+DROP TABLE IF EXISTS binned_content_based_movie;
+CREATE TABLE binned_content_based_movie AS
+SELECT movieID, 
+Average_Rating, 
+Times_Watched, 
+Scaled_Watched,
+CASE
+WHEN Scaled_Watched < 0.2 THEN 1
+WHEN Scaled_Watched < 0.4 THEN 2 -- between 0.2 and 0.4
+WHEN Scaled_Watched < 0.6 THEN 3 -- WHEN scaled_bought >= 0.4 AND
+WHEN Scaled_Watched < 0.8 THEN 4
+WHEN Scaled_Watched <= 1 THEN 5
+ELSE NULL
+END AS popularity_rating
+FROM scaled_content_based_movie;
+
+-- View New Binned Table 
+SELECT * 
+FROM binned_content_based_movie;
+
+
+--- Create Final Table for Content Based Filtering 
+-- Bin the Scaled Watch to Create a Popularity Scale 
+DROP TABLE IF EXISTS final_content_based_movies;
+CREATE TABLE final_content_based_movies AS
+SELECT movieID, 
+Average_Rating,
+Scaled_Watched
+FROM binned_content_based_movie;
+
+-- View Movie One hot Encoding made earlier
+SELECT * 
+FROM movies_one_hot_encoding; 
+
+
+-- Create Final Table by Joining the Movie One hot encoding and the scaled watched table
+DROP TABLE IF EXISTS final_content_based_movies;
+CREATE TABLE final_content_based_movies AS
+SELECT *
+FROM movies_one_hot_encoding mohe 
+INNER JOIN scaled_content_based_movie scbm 
+ON mohe.movieID = scbm.movieID;
+
+-- View New Table 
+SELECT * 
+FROM final_content_based_movies;
+
+-- Drop Duplicated movieID column and Times Watched Column 
+ALTER TABLE final_content_based_movies 
+DROP COLUMN 'movieID';
+
+ALTER TABLE final_content_based_movies 
+DROP COLUMN "genres";
+
+ALTER TABLE final_content_based_movies 
+DROP COLUMN "Year";
+
+ALTER TABLE final_content_based_movies 
+DROP COLUMN "movieID:1";
+
+ALTER TABLE final_content_based_movies 
+DROP COLUMN "Times_Watched";
+
+-- View Final Combined Table 
+SELECT * 
+FROM final_content_based_movies;
+
+
+
+
+
+
+-------------------------------------------------------------------------------------
+
+
+---- Start the Hybrid Based System
+
+-- Subset the Data for people who watched over 100 movies 
+
+-- Possibly Create Predicted Ratings for Users with over 100 Movies Watched (Sufficient Amount to Train Data on)
+DROP TABLE IF EXISTS tableu_explor_1;
+CREATE TABLE tableu_explor_1  AS
+SELECT 
+  userID, 
+  COUNT(DISTINCT movieID) AS Movies_Watched
+FROM Ratings r 
+GROUP BY userID;
+
+SELECT *
+FROM tableu_explor_1;
+
+-- View how Many Users have watchec specified amount of movies (200 Movies) 
+SELECT userID, Movies_Watched  
+FROM tableu_explor_1
+WHERE Movies_Watched >= 200;
+
+
+-- Create New Table of the subsetted users
+DROP TABLE IF EXISTS user_200;
+CREATE TABLE user_200  AS
+SELECT userID, Movies_Watched  
+FROM tableu_explor_1 te
+WHERE Movies_Watched >= 200;
+
+
+-- View the new table
+SELECT *
+FROM user_200;
+
+SELECT * 
+FROM movie_and_ratings mar
+ORDER BY userID ;
+
+
+-- Join new table with movie and ratings table 
+-- 
+DROP TABLE IF EXISTS top_rated_movie;
+CREATE TABLE top_rated_movie  AS
+SELECT title, u.userID, rating   
+FROM movie_and_ratings mar 
+INNER JOIN user_200 u
+ON mar.userID = u.userID;
+
+-- View the New Table
+SELECT * 
+FROM top_rated_movie;
+
+-- View Final Combined Table 
+SELECT * 
+FROM final_content_based_movies;
+
+
+DROP TABLE IF EXISTS movie_ratings;
+CREATE TABLE movie_ratings  AS
+SELECT title, ROUND(AVG(rating),2) AS 'Average Rating' , COUNT(userID) AS "Number of Ratings"
+FROM movie_and_ratings mar
+GROUP BY title;
+
+--- Movie Ratings 
+SELECT *
+FROM movie_ratings;
+
+-- View New Binned Table 
+SELECT * 
+FROM binned_content_based_movie;
+
+
+DROP TABLE IF EXISTS binned_movie_ratings;
+CREATE TABLE binned_movie_ratings  AS
+SELECT bcbm.movieID, m.title, bcbm.Average_Rating , bcbm.popularity_rating  
+FROM binned_content_based_movie bcbm
+INNER JOIN Movies m
+ON bcbm.movieID  = m.movieID;
+
+-- View New Binned Table 
+SELECT * 
+FROM binned_movie_ratings;
+
+-- Drop movieID
+ALTER TABLE binned_movie_ratings  
+DROP COLUMN "movieID";
+
+
+-- View New Binned Table 
+SELECT * 
+FROM binned_movie_ratings;
+
+
+--- Hybrid Tables
+-- Get a table for the title of each user's highest rated movie
+
+DROP TABLE IF EXISTS top_rated_movie;
+CREATE TABLE top_rated_movie  AS
+SELECT title, userID, MAX(rating)  AS "Highest Rating" 
+FROM movie_and_ratings mar
+GROUP BY userID ;
+
+-- View the New Table
+SELECT * 
+FROM top_rated_movie;
+
+ALTER TABLE binned_movie_ratings  
+DROP COLUMN "movieID";
+
+
+-- View New Binned Table 
+SELECT * 
+FROM binned_content_based_movie;
+
+
+
+
+
+
