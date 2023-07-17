@@ -1,0 +1,611 @@
+userID,Movie Recommendation 1,Movie Recommendation 2,Movie Recommendation 3,Movie Recommendation 4,Movie Recommendation 5,Movie Recommendation 6,Movie Recommendation 7,Movie Recommendation 8,Movie Recommendation 9,Movie Recommendation 10
+1,Airplane! ,"Christmas Story, A ",Ferris Bueller's Day Off ,"League of Their Own, A ",LÃ©on: The Professional   ,"Killer, The  ",Hard-Boiled  ,Bullitt ,Patriot Games ,"Getaway, The "
+2,Forrest Gump ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love ,Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+3,Alien ,Aliens ,2001: A Space Odyssey ,Apocalypse Now ,Army of Darkness ,"Abominable Snowman, The  ",Attack of the Puppet People ,From Beyond ,"Thing from Another World, The ","Asphyx, The "
+4,Annie Hall ,Apocalypse Now ,"Godfather, The ","Godfather: Part II, The ","Graduate, The ",American History X ,"Godfather: Part II, The ","Green Mile, The ",Casino ,"Shawshank Redemption, The "
+5,Forrest Gump ,Speed ,Dave ,Mrs. Doubtfire ,Philadelphia ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love 
+6,"Nightmare Before Christmas, The ",Peter Pan ,Fantasia ,"Sword in the Stone, The ",Beauty and the Beast: The Enchanted Christmas ,"Rudolph, the Red-Nosed Reindeer ","Matrix, The ",Fight Club ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back 
+7,"Matrix, The ",Pulp Fiction ,"Godfather, The ",Schindler's List ,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+8,Beauty and the Beast ,Crimson Tide ,Terminator 2: Judgment Day ,Starship Troopers ,"Running Man, The ",Superman II ,"Blood of Heroes, The  ",Death Race 2000 ,"Matrix, The ",Fight Club 
+9,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+10,Beauty and the Beast ,Cinderella ,"Nightmare Before Christmas, The ",Fantasia ,Pinocchio ,Peter Pan ,"Shawshank Redemption, The ","Silence of the Lambs, The ","Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+11,Star Trek: Generations ,Batman ,Beauty and the Beast ,Crimson Tide ,Dances with Wolves ,True Grit ,Lonesome Dove ,Ride the High Country ,Quigley Down Under ,Return to Snowy River  
+12,Forrest Gump ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+13,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman ,"Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The "
+14,Babe ,Crimson Tide ,"Lion King, The ","Fugitive, The ",Ghost ,Sleepers ,Cape Fear ,"Dead Zone, The ",Arlington Road ,Red Rock West 
+15,"Silence of the Lambs, The ",Indiana Jones and the Last Crusade ,Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance ,"Silence of the Lambs, The ","Usual Suspects, The ",Braveheart 
+16,"Godfather: Part II, The ","Green Mile, The ",Casino ,Dead Man Walking ,Donnie Brasco ,Bonnie and Clyde ,Braveheart ,Terminator 2: Judgment Day ,Toy Story ,Apollo 13 
+17,Alien ,Aliens ,Fargo ,Man Bites Dog  ,Freeway ,Trainspotting ,"Lock, Stock & Two Smoking Barrels ",Get Shorty ,Monty Python and the Holy Grail ,Fargo 
+18,American Beauty ,Ghostbusters  ,Blade ,Platoon ,Aliens ,Casablanca ,Jerry Maguire ,Leaving Las Vegas ,Sense and Sensibility ,"Piano, The "
+19,Saving Private Ryan ,"Godfather, The ","Truman Show, The ","Blues Brothers, The ",Braveheart ,Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The "
+20,Raiders of the Lost Ark  ,Toy Story ,Back to the Future ,Jurassic Park ,"Matrix, The ","Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live 
+21,Saving Private Ryan ,"Sixth Sense, The ",True Lies ,Animal House ,Babe ,Braveheart ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Longest Day, The "
+22,"Godfather: Part II, The ",Goodfellas ,American History X ,"Green Mile, The ",Casino ,Dead Man Walking ,Pulp Fiction ,"Matrix, The ","Silence of the Lambs, The ","Usual Suspects, The "
+23,Taxi Driver ,Wallace & Gromit: The Wrong Trousers ,Being John Malkovich ,Clerks ,"Good, the Bad and the Ugly, The  ",Red River ,Butch Cassidy and the Sundance Kid ,"Hidden Fortress, The  ","Wild Bunch, The ",Indiana Jones and the Last Crusade 
+24,Fight Club ,Indiana Jones and the Last Crusade ,American Beauty ,"Sixth Sense, The ",Star Wars: Episode V - The Empire Strikes Back ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  
+25,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman ,"Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The ",Fight Club 
+26,Crimson Tide ,Braveheart ,Dances with Wolves ,Outbreak ,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+27,Aladdin ,Alice in Wonderland ,Casablanca ,"Full Monty, The ",Mary Poppins ,Robin Hood ,Oliver & Company ,"Jungle Book, The ","Muppet Movie, The ",Muppet Treasure Island 
+28,Dead Poets Society ,Indiana Jones and the Last Crusade ,Indiana Jones and the Temple of Doom ,One Flew Over the Cuckoo's Nest ,Platoon ,Rain Man ,Dead Poets Society ,Amadeus ,Rocky ,To Kill a Mockingbird 
+29,"Godfather: Part II, The ",One Flew Over the Cuckoo's Nest ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Toy Story ,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Star Wars: Episode I - The Phantom Menace ,Superman ,Mad Max 
+30,Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Longest Day, The ",All Quiet on the Western Front ,Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The ",Fight Club 
+31,Toy Story 2 ,Antz ,"Bug's Life, A ",Puss in Boots  ,"Black Cauldron, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+32,Sense and Sensibility ,"Piano, The ",William Shakespeare's Romeo + Juliet,Breakfast at Tiffany's ,"Virgin Suicides, The ",Hoosiers  ,"Matrix, The ",Forrest Gump ,Fight Club ,American Beauty 
+33,Star Wars: Episode V - The Empire Strikes Back ,Fight Club ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,Bullitt ,Fight Club ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back 
+34,"Green Mile, The ",Goodfellas ,American History X ,"Godfather: Part II, The ",Casino ,Dead Man Walking ,Pulp Fiction ,"Silence of the Lambs, The ","Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+35,Crimson Tide ,Aladdin ,"Firm, The ",Pulp Fiction ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,"Shawshank Redemption, The "
+36,Apocalypse Now ,"Boot, Das  ",Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb ,For a Few Dollars More  ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino 
+37,Crimson Tide ,Aladdin ,Beauty and the Beast ,Braveheart ,Cliffhanger ,Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The "
+38,Babe ,Like Water for Chocolate  ,Stargate ,Twelve Monkeys  ,Seconds ,"Stepford Wives, The ",Unforgettable ,Seven  ,Rear Window ,"Matrix, The "
+39,Fight Club ,One Flew Over the Cuckoo's Nest ,"Shawshank Redemption, The ",Forrest Gump ,LÃ©on: The Professional   ,American History X ,"Green Mile, The ",Casino ,Dead Man Walking ,Donnie Brasco 
+40,"American President, The ",Crimson Tide ,Interview with the Vampire: The Vampire Chronicles ,Maverick ,Schindler's List ,Full Metal Jacket ,Platoon ,Glory ,"Deer Hunter, The ",Patton 
+41,"Shawshank Redemption, The ","Godfather, The ","Godfather, The ","Godfather: Part II, The ","Green Mile, The ",Casino ,Dead Man Walking ,"Shawshank Redemption, The ",Star Wars: Episode IV - A New Hope ,Schindler's List 
+42,American Beauty ,Indiana Jones and the Last Crusade ,Dazed and Confused ,"Green Mile, The ",LÃ©on: The Professional   ,Titanic ,Leaving Las Vegas ,Sense and Sensibility ,Breakfast at Tiffany's ,William Shakespeare's Romeo + Juliet
+43,Home Alone ,"Silence of the Lambs, The ",Twister ,Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance ,"Matrix, The ","Silence of the Lambs, The "
+44,Dragonheart ,Star Trek: First Contact ,Twelve Monkeys  ,"Nutty Professor, The ",Phenomenon ,Seconds ,"Stepford Wives, The ",Unforgettable ,Seven  ,Rear Window 
+45,GoldenEye ,LÃ©on: The Professional   ,"Shawshank Redemption, The ",Alien ,Aliens ,Casino ,Dead Man Walking ,Donnie Brasco ,Carlito's Way ,Dog Day Afternoon 
+46,Apollo 13 ,Pulp Fiction ,Seven  ,Fargo ,Man Bites Dog  ,Freeway ,Trainspotting ,Get Shorty ,Pulp Fiction ,"Matrix, The "
+47,Good Will Hunting ,Casablanca ,American Beauty ,Sense and Sensibility ,Leaving Las Vegas ,"Piano, The ",Pulp Fiction ,"Matrix, The ","Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+48,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Terminator 2: Judgment Day ,Back to the Future ,Indiana Jones and the Last Crusade ,Star Wars: Episode VI - Return of the Jedi ,Star Wars: Episode IV - A New Hope ,Stargate ,Superman ,Star Wars: Episode I - The Phantom Menace 
+49,Fight Club ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,Pulp Fiction ,"Silence of the Lambs, The ",Fight Club ,"Usual Suspects, The "
+50,Reservoir Dogs ,Airplane! ,Alien ,"Godfather: Part II, The ",One Flew Over the Cuckoo's Nest ,Rain Man ,Dead Poets Society ,What's Eating Gilbert Grape ,Mr. Holland's Opus ,Rocky 
+51,"Fifth Element, The ",Indiana Jones and the Last Crusade ,American Beauty ,American History X ,Being John Malkovich ,Good Will Hunting ,Titanic ,Jerry Maguire ,Leaving Las Vegas ,Sense and Sensibility 
+52,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Pulp Fiction ,"Silence of the Lambs, The ","Usual Suspects, The ",Schindler's List ,American Beauty 
+53,Schindler's List ,"Shawshank Redemption, The ","Thin Red Line, The ","Usual Suspects, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The "
+54,Die Hard: With a Vengeance ,"Lion King, The ",Anastasia ,Fantasia 2000 ,Dumbo ,Tarzan ,"Secret of NIMH, The ","Matrix, The ",Fight Club ,Star Wars: Episode IV - A New Hope 
+55,"Matrix, The ",American Beauty ,Braveheart ,"Fifth Element, The ",Office Space ,"Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live 
+56,Apollo 13 ,Dances with Wolves ,Babe ,Speed ,Twelve Monkeys  ,Stand by Me ,Easy Rider ,"Man Who Would Be King, The ","Straight Story, The ",Aguirre: The Wrath of God  
+57,Goodfellas ,Jaws ,Alien ,"Big Lebowski, The ",Brazil ,"Abominable Snowman, The  ",Attack of the Puppet People ,From Beyond ,"Thing from Another World, The ","Asphyx, The "
+58,"American President, The ",Rob Roy ,"Silence of the Lambs, The ",Stargate ,Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,"Birds, The ","Matrix, The "
+59,Alien ,Aliens ,North by Northwest ,Patton ,Amadeus ,"Abominable Snowman, The  ",Attack of the Puppet People ,From Beyond ,"Thing from Another World, The ","Asphyx, The "
+60,Fight Club ,"Godfather: Part II, The ",Pulp Fiction ,"Silence of the Lambs, The ",Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Pulp Fiction 
+61,Pulp Fiction ,American Beauty ,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb ,Fight Club ,"Godfather, The ",Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+62,"Shining, The ",American Beauty ,Fargo ,"Princess Bride, The ",Aladdin ,Casablanca ,Jerry Maguire ,Leaving Las Vegas ,Sense and Sensibility ,"Piano, The "
+63,"Princess Bride, The ","Sixth Sense, The ",Toy Story 2 ,"Clockwork Orange, A ","Green Mile, The ",Big Trouble in Little China ,Romancing the Stone ,Clash of the Titans ,"Three Musketeers, The ",Last Action Hero 
+64,Batman ,Aliens ,Back to the Future ,Dazed and Confused ,GoldenEye ,Back to the Future Part II ,Star Trek IV: The Voyage Home ,"Adventures of Buckaroo Banzai Across the 8th Dimension, The ","Hitch Hikers Guide to the Galaxy, The ",Our Man Flint 
+65,Forrest Gump ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love ,Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+66,Beetlejuice ,"Big Lebowski, The ","Christmas Story, A ","Crow, The ",E.T. the Extra-Terrestrial ,"Sting, The ",Some Like It Hot ,"Return of the Pink Panther, The ","Thin Man, The ",Ocean's Eleven  
+67,Raiders of the Lost Ark  ,Yojimbo ,"Ghost and the Darkness, The ","Hidden Fortress, The  ","Touch of Zen, A  ",Shogun Assassin ,"Silence of the Lambs, The ","Usual Suspects, The ",Star Wars: Episode IV - A New Hope ,Schindler's List 
+68,Dog Day Afternoon ,Akira ,"Cider House Rules, The ",Trainspotting ,Twelve Monkeys  ,Seconds ,"Stepford Wives, The ",Unforgettable ,Rear Window ,Just Cause 
+69,Braveheart ,Raiders of the Lost Ark  ,Indiana Jones and the Last Crusade ,Yojimbo ,"Ghost and the Darkness, The ","Hidden Fortress, The  ","Touch of Zen, A  ",Fight Club ,Schindler's List ,Raiders of the Lost Ark  
+70,Fight Club ,"Godfather: Part II, The ",Life Is Beautiful  ,Saving Private Ryan ,"Silence of the Lambs, The ",Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance 
+71,Twelve Monkeys  ,Eraser ,"River Wild, The ",Seconds ,"Stepford Wives, The ",Unforgettable ,Seven  ,Rear Window ,"Shawshank Redemption, The ",Pulp Fiction 
+72,Fight Club ,LÃ©on: The Professional   ,"Shining, The ","Sixth Sense, The ",Toy Story ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  
+73,"Godfather, The ",Schindler's List ,Full Metal Jacket ,Platoon ,Glory ,"Deer Hunter, The ",Patton ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+74,Casablanca ,Cool Hand Luke ,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb ,Touch of Evil ,"Battle of Algiers, The  ",Stripes ,"General, The ",Don't Look Now: We're Being Shot At  ,And the Ship Sails On  ,Catch-22 
+75,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino ,"Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The "
+76,American History X ,One Flew Over the Cuckoo's Nest ,"Usual Suspects, The ",Dial M for Murder ,Following ,Basic Instinct ,Murder on the Orient Express ,Frantic ,"Usual Suspects, The ",Schindler's List 
+77,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman ,Mad Max ,Tron ,"Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The ",Fight Club 
+78,"Godfather, The ",Saving Private Ryan ,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Superman ,Star Wars: Episode I - The Phantom Menace ,Mad Max ,Fight Club 
+79,Braveheart ,Raiders of the Lost Ark  ,Alien ,Beverly Hills Cop ,"Untouchables, The ",Yojimbo ,"Ghost and the Darkness, The ","Hidden Fortress, The  ","Touch of Zen, A  ",Shogun Assassin 
+80,Pulp Fiction ,Schindler's List ,American History X ,Saving Private Ryan ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Pulp Fiction 
+81,Clear and Present Danger ,Dances with Wolves ,True Grit ,Lonesome Dove ,Ride the High Country ,Quigley Down Under ,Return to Snowy River  ,"Matrix, The ","Silence of the Lambs, The ",Fight Club 
+82,American History X ,American Pie ,"Silence of the Lambs, The ",Blade ,Dr. No ,Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance 
+83,Fight Club ,Schindler's List ,"Silence of the Lambs, The ",American History X ,Fargo ,Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",True Romance ,"Birds, The "
+84,Aladdin ,Braveheart ,Tombstone ,Beauty and the Beast ,"Clockwork Orange, A ",Saving Private Ryan ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The ","Longest Day, The "
+85,"Shawshank Redemption, The ",Fight Club ,Life Is Beautiful  ,Saving Private Ryan ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The "
+86,"Silence of the Lambs, The ",Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance ,Pulp Fiction ,"Silence of the Lambs, The ","Usual Suspects, The ",Schindler's List 
+87,Fight Club ,"Princess Bride, The ",Princess Mononoke  ,Raiders of the Lost Ark  ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,"Shawshank Redemption, The "
+88,Fight Club ,"Godfather, The ",Forrest Gump ,"Green Mile, The ",Life Is Beautiful  ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love 
+89,American Beauty ,Beauty and the Beast ,Casablanca ,Chinatown ,Fantasia ,Good Will Hunting ,Titanic ,Casablanca ,Jerry Maguire ,Leaving Las Vegas 
+90,James and the Giant Peach ,Heat ,Mission: Impossible ,North by Northwest ,GoldenEye ,"Rock, The ","Hunt for Red October, The ",Die Hard 2 ,"Shawshank Redemption, The ",Pulp Fiction 
+91,American Beauty ,American History X ,Dogma ,Babe ,"Big Lebowski, The ",Titanic ,Sense and Sensibility ,"Piano, The ",Breakfast at Tiffany's ,William Shakespeare's Romeo + Juliet
+92,Beauty and the Beast ,"Jungle Book, The ","Lion King, The ",Mary Poppins ,Toy Story ,Toy Story 2 ,Antz ,"Bug's Life, A ",Puss in Boots  ,"Black Cauldron, The "
+93,Back to the Future ,Die Hard ,Die Hard: With a Vengeance ,"Fifth Element, The ","Fugitive, The ",Back to the Future Part II ,Galaxy Quest ,Bill & Ted's Excellent Adventure ,Star Trek IV: The Voyage Home ,"Adventures of Buckaroo Banzai Across the 8th Dimension, The "
+94,Beauty and the Beast ,Cinderella ,"Nightmare Before Christmas, The ",Fantasia ,Pinocchio ,Peter Pan ,"Matrix, The ",Fight Club ,"Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+95,"Godfather, The ",American Beauty ,"Big Lebowski, The ",Braveheart ,Fight Club ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,Bullitt 
+96,Star Wars: Episode V - The Empire Strikes Back ,"Shawshank Redemption, The ","Silence of the Lambs, The ",American History X ,Goodfellas ,"Green Mile, The ",Casino ,Dead Man Walking ,"Shawshank Redemption, The ",Forrest Gump 
+97,Star Wars: Episode V - The Empire Strikes Back ,"Godfather: Part II, The ",Raiders of the Lost Ark  ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman ,Mad Max ,"Shawshank Redemption, The "
+98,Fight Club ,Pulp Fiction ,"Shawshank Redemption, The ",Star Wars: Episode IV - A New Hope ,American Beauty ,American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino 
+99,Beauty and the Beast ,Braveheart ,Dances with Wolves ,"Fugitive, The ","Lion King, The ",Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The "
+100,Ferris Bueller's Day Off ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Big ,Fight Club ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  
+101,Nell ,Rudy ,"Girl, Interrupted ","Karate Kid, The ",Miracle on 34th Street ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+102,Braveheart ,Beauty and the Beast ,Ghost ,Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The ","Matrix, The ",Fight Club 
+103,12 Angry Men ,Back to the Future ,Monty Python and the Holy Grail ,Seven  ,Indiana Jones and the Temple of Doom ,Rear Window ,Just Cause ,Saboteur ,True Crime ,Blow Out 
+104,American Beauty ,Breakfast at Tiffany's ,Casablanca ,Mary Poppins ,Singin' in the Rain ,Good Will Hunting ,Titanic ,Casablanca ,Jerry Maguire ,Leaving Las Vegas 
+105,Chinatown ,"Pure Formality, A  ",House of Games ,Devil in a Blue Dress ,"Third Man, The ",Dial M for Murder ,Star Wars: Episode V - The Empire Strikes Back ,Toy Story ,Apollo 13 ,Jurassic Park 
+106,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The ",Fight Club ,"Usual Suspects, The "
+107,Disclosure ,Twelve Monkeys  ,Seconds ,"Stepford Wives, The ",Unforgettable ,Seven  ,Rear Window ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+108,Apollo 13 ,"Shawshank Redemption, The ",Fargo ,Groundhog Day ,Raiders of the Lost Ark  ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+109,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love ,Chasing Amy ,Fast Times at Ridgemont High ,Don Juan DeMarco ,"Matrix, The ",Fight Club ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back 
+110,"Silence of the Lambs, The ",American History X ,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb ,LÃ©on: The Professional   ,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+111,Office Space ,"Breakfast Club, The ","Matrix, The ",Raiders of the Lost Ark  ,There's Something About Mary ,"Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live 
+112,Pulp Fiction ,"Godfather, The ","Godfather: Part II, The ",One Flew Over the Cuckoo's Nest ,Schindler's List ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,"Lock, Stock & Two Smoking Barrels "
+113,Apollo 13 ,Monty Python and the Holy Grail ,Shakespeare in Love ,"Shawshank Redemption, The ",Toy Story ,American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino 
+114,"Matrix, The ",Star Wars: Episode V - The Empire Strikes Back ,"Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+115,Alien ,Back to the Future ,Ferris Bueller's Day Off ,"Fifth Element, The ",Fight Club ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  
+116,"Matrix, The ","Princess Bride, The ",Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Fight Club ,"Terminator, The ",Predator ,eXistenZ ,They Live ,Hangar 18 
+117,What's Eating Gilbert Grape ,Rocky ,Dead Poets Society ,Rain Man ,Magnolia ,Sling Blade ,"Matrix, The ",Fight Club ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back 
+118,"Silence of the Lambs, The ",Fight Club ,"Shawshank Redemption, The ","Usual Suspects, The ",Blade Runner ,"Green Mile, The ",Casino ,Dead Man Walking ,Donnie Brasco ,Carlito's Way 
+119,Fight Club ,Schindler's List ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,Bullitt ,"Silence of the Lambs, The ",Fight Club ,"Usual Suspects, The "
+120,Eraser ,Star Trek: First Contact ,Toy Story ,Toy Story 2 ,Antz ,"Bug's Life, A ",Puss in Boots  ,"Black Cauldron, The ","Shawshank Redemption, The ",Pulp Fiction 
+121,Four Weddings and a Funeral ,"Silence of the Lambs, The ",Babe ,Terminator 2: Judgment Day ,Get Shorty ,Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,"Birds, The "
+122,"Clockwork Orange, A ",American Beauty ,"Shining, The ",Airplane! ,Amadeus ,Good Will Hunting ,Titanic ,Casablanca ,Jerry Maguire ,Leaving Las Vegas 
+123,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,"Lock, Stock & Two Smoking Barrels ",Forrest Gump ,"Usual Suspects, The ",Schindler's List ,Raiders of the Lost Ark  
+124,Fight Club ,Reservoir Dogs ,Seven  ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,"Matrix, The ",Fight Club 
+125,American History X ,Good Will Hunting ,Seven  ,"Shining, The ","Usual Suspects, The ",Reservoir Dogs ,Dial M for Murder ,Following ,Basic Instinct ,Murder on the Orient Express 
+126,Twelve Monkeys  ,Seconds ,"Stepford Wives, The ",Unforgettable ,Rear Window ,Just Cause ,"Matrix, The ",Fight Club ,"Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+127,"Player, The ",Crimes and Misdemeanors ,Something Wild ,Miami Blues ,Paper Moon ,Trainspotting ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+128,"Matrix, The ","Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+129,Forrest Gump ,"Green Mile, The ",Indiana Jones and the Last Crusade ,Indiana Jones and the Temple of Doom ,Pulp Fiction ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+130,Seven  ,Taxi Driver ,Rear Window ,Just Cause ,Saboteur ,True Crime ,Blow Out ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+131,Fight Club ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,Bullitt ,Fight Club ,Schindler's List ,Raiders of the Lost Ark  ,Terminator 2: Judgment Day 
+132,Fargo ,Ghostbusters  ,Pretty Woman ,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb ,Ferris Bueller's Day Off ,Man Bites Dog  ,Freeway ,Taxi Driver ,"Lock, Stock & Two Smoking Barrels ",Get Shorty 
+133,Seconds ,"Stepford Wives, The ",Unforgettable ,Rear Window ,Just Cause ,"Matrix, The ",Fight Club ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Raiders of the Lost Ark  
+134,Die Hard: With a Vengeance ,"Fugitive, The ","Shawshank Redemption, The ",Twelve Monkeys  ,Apollo 13 ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+135,Back to the Future ,Forrest Gump ,Ferris Bueller's Day Off ,"Green Mile, The ",Raising Arizona ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love ,"Graduate, The "
+136,Copycat ,Forget Paris ,Forrest Gump ,French Kiss ,Jumanji ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love 
+137,Dial M for Murder ,"Fugitive, The ",Rosemary's Baby ,Witness ,Ben-Hur ,Sleepers ,Cape Fear ,"Dead Zone, The ",Arlington Road ,Red Rock West 
+138,American Beauty ,Good Will Hunting ,Titanic ,Casablanca ,Jerry Maguire ,Leaving Las Vegas ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+139,"Matrix, The ","Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+140,Apocalypse Now ,"Princess Bride, The ",Rocky ,Caddyshack ,Citizen Kane ,Big Trouble in Little China ,Romancing the Stone ,Clash of the Titans ,"Three Musketeers, The ",Last Action Hero 
+141,"Sixth Sense, The ",Terminator 2: Judgment Day ,"Usual Suspects, The ",Airplane! ,American Beauty ,Reservoir Dogs ,Dial M for Murder ,Following ,Basic Instinct ,Murder on the Orient Express 
+142,"Shawshank Redemption, The ",Braveheart ,Twelve Monkeys  ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ","Matrix, The "
+143,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ","Silence of the Lambs, The ",Fight Club 
+144,"Fugitive, The ","Shawshank Redemption, The ","Godfather, The ","Godfather: Part II, The ",Goodfellas ,Casino ,Dead Man Walking ,"Shawshank Redemption, The ","Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+145,Braveheart ,Disclosure ,Interview with the Vampire: The Vampire Chronicles ,Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The ","Matrix, The ",Forrest Gump 
+146,Seconds ,"Stepford Wives, The ",Unforgettable ,Seven  ,Rear Window ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+147,Braveheart ,Forrest Gump ,Independence Day  ,Pulp Fiction ,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+148,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ","Silence of the Lambs, The ",Fight Club 
+149,Indiana Jones and the Last Crusade ,Indiana Jones and the Temple of Doom ,Predator ,Aladdin ,Ghostbusters  ,Raiders of the Lost Ark  ,Yojimbo ,"Ghost and the Darkness, The ","Hidden Fortress, The  ","Touch of Zen, A  "
+150,James and the Giant Peach ,Sense and Sensibility ,Toy Story ,Nixon ,Twister ,Toy Story 2 ,Antz ,"Bug's Life, A ",Puss in Boots  ,"Black Cauldron, The "
+151,Dragonheart ,Star Wars: Episode IV - A New Hope ,"Rock, The ",Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman ,"Shawshank Redemption, The ",Pulp Fiction 
+152,"Shining, The ",Halloween ,Suspiria ,Cemetery Man  ,Nosferatu  ,Zombie   ,Forrest Gump ,Star Wars: Episode V - The Empire Strikes Back ,Braveheart ,Terminator 2: Judgment Day 
+153,American History X ,Fight Club ,"Matrix, The ","Shawshank Redemption, The ","Silence of the Lambs, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino 
+154,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ","Silence of the Lambs, The "
+155,"Lion King, The ",Pulp Fiction ,"Shawshank Redemption, The ","South Park: Bigger, Longer and Uncut ",Star Wars: Episode V - The Empire Strikes Back ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+156,"400 Blows, The  ",Alien ,"Apartment, The ","Birds, The ","Boot, Das  ","Abominable Snowman, The  ",Attack of the Puppet People ,From Beyond ,"Thing from Another World, The ","Asphyx, The "
+157,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+158,Air Force One ,"River Wild, The ",Enemy of the State ,Breakdown ,"Jackal, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+159,Casablanca ,Jerry Maguire ,Sense and Sensibility ,Leaving Las Vegas ,"Piano, The ","Matrix, The ","Silence of the Lambs, The ","Usual Suspects, The ",Star Wars: Episode IV - A New Hope ,Schindler's List 
+160,"Big Lebowski, The ",Dogma ,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb ,Monty Python and the Holy Grail ,Office Space ,Dogma ,"Adventures of Baron Munchausen, The ",Hook ,Jabberwocky ,Erik the Viking 
+161,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The ",Fight Club 
+162,Braveheart ,"Fugitive, The ",Sleepless in Seattle ,Aladdin ,"American President, The ",Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The "
+163,"Love Bug, The ",Harriet the Spy ,Mouse Hunt ,Muppets From Space ,"Shaggy Dog, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+164,"Matrix, The ",Alien ,Star Wars: Episode IV - A New Hope ,Blade Runner ,eXistenZ ,They Live ,Hangar 18 ,Screamers ,"Shawshank Redemption, The ",Pulp Fiction 
+165,Star Wars: Episode IV - A New Hope ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman ,Mad Max ,Tron ,"Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The "
+166,Braveheart ,Aliens ,Back to the Future ,Dead Poets Society ,"Fifth Element, The ",Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The ","Longest Day, The "
+167,Fight Club ,"Godfather, The ","South Park: Bigger, Longer and Uncut ",American History X ,Austin Powers: International Man of Mystery ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  
+168,Alien ,Blade Runner ,Monty Python and the Holy Grail ,"Killing Fields, The ",M ,Dogma ,"Adventures of Baron Munchausen, The ",Hook ,Jabberwocky ,Erik the Viking 
+169,Raiders of the Lost Ark  ,"Breakfast Club, The ",Ferris Bueller's Day Off ,Fight Club ,Star Wars: Episode IV - A New Hope ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  
+170,Clear and Present Danger ,Die Hard: With a Vengeance ,Star Trek: Generations ,Die Hard ,Natural Born Killers ,Heat ,Ronin ,"French Connection, The ","Matrix, The ",Fight Club 
+171,Aliens ,"Godfather: Part II, The ",Goodfellas ,"Shining, The ","Usual Suspects, The ",Dial M for Murder ,Following ,Basic Instinct ,Murder on the Orient Express ,Frantic 
+172,Forrest Gump ,"Matrix, The ",Fight Club ,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The "
+173,Babe ,Dances with Wolves ,"Fugitive, The ","Lion King, The ","Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+174,"Silence of the Lambs, The ",Speed ,Braveheart ,"Lion King, The ",Seven  ,Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance 
+175,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+176,Beauty and the Beast ,Cinderella ,"Nightmare Before Christmas, The ",Fantasia ,Pinocchio ,Peter Pan ,"Matrix, The ",Forrest Gump ,Fight Club ,"Usual Suspects, The "
+177,Miracle on 34th Street ,Saving Private Ryan ,Braveheart ,Caddyshack ,Dazed and Confused ,Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Longest Day, The "
+178,Star Wars: Episode IV - A New Hope ,"Godfather, The ",Reservoir Dogs ,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman ,Star Wars: Episode IV - A New Hope 
+179,"Little Princess, A ","Secret Garden, The ",My Dog Skip ,Old Yeller ,Now and Then ,"Matrix, The ",Fight Club ,"Usual Suspects, The ",Star Wars: Episode IV - A New Hope ,Schindler's List 
+180,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman ,Mad Max ,"Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The ","Usual Suspects, The "
+181,Apollo 13 ,"Shawshank Redemption, The ",Dave ,Jumanji ,"Lion King, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+182,Rocky ,Ghostbusters  ,Scent of a Woman ,All the President's Men ,Annie Hall ,Tank Girl ,"10th Victim, The  ",Mystery Science Theater 3000: The Movie ,Sleeper ,"Lion King, The "
+183,"Matrix, The ","Godfather: Part II, The ",Indiana Jones and the Last Crusade ,Raiders of the Lost Ark  ,Star Wars: Episode IV - A New Hope ,"Terminator, The ",Blade Runner ,eXistenZ ,They Live ,Hangar 18 
+184,2001: A Space Odyssey ,Akira ,Apocalypse Now ,Blade Runner ,Pulp Fiction ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+185,Back to the Future ,Mary Poppins ,Miracle on 34th Street ,My Fair Lady ,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+186,Apocalypse Now ,Fargo ,Goldfinger ,Back to the Future ,Being John Malkovich ,Pulp Fiction ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+187,"Godfather, The ",Goodfellas ,"Green Mile, The ","Princess Bride, The ","Sixth Sense, The ","Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Dead Man Walking ,Dog Day Afternoon 
+188,Casablanca ,Aladdin ,"Aristocats, The ",Beauty and the Beast ,It's a Wonderful Life ,Robin Hood ,Hercules ,Oliver & Company ,"Bug's Life, A ","Jungle Book, The "
+189,Full Metal Jacket ,Platoon ,Glory ,"Deer Hunter, The ",Patton ,Pulp Fiction ,"Usual Suspects, The ",Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Raiders of the Lost Ark  
+190,"Usual Suspects, The ",Pulp Fiction ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The "
+191,"Silence of the Lambs, The ",Batman ,"Birdcage, The ",Dances with Wolves ,Four Weddings and a Funeral ,Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance 
+192,"Fugitive, The ",Crimson Tide ,Die Hard: With a Vengeance ,Terminator 2: Judgment Day ,Starship Troopers ,"Running Man, The ",Superman II ,"Blood of Heroes, The  ",Death Race 2000 ,"Shawshank Redemption, The "
+193,"Godfather: Part II, The ","Matrix, The ",Seven  ,Fargo ,"Shining, The ","Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live 
+194,"Deer Hunter, The ",Glory ,Patton ,"Killing Fields, The ",Full Metal Jacket ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+195,Fight Club ,Forrest Gump ,"Godfather, The ",Office Space ,Austin Powers: The Spy Who Shagged Me ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,Shakespeare in Love ,"Graduate, The "
+196,Forrest Gump ,"Shawshank Redemption, The ",Star Wars: Episode VI - Return of the Jedi ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction 
+197,Fight Club ,"Shining, The ","Silence of the Lambs, The ",Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance 
+198,"Godfather, The ",Indiana Jones and the Last Crusade ,Schindler's List ,Aladdin ,Die Hard ,Full Metal Jacket ,Platoon ,Glory ,Patton ,"Killing Fields, The "
+199,Braveheart ,Ghostbusters  ,"Godfather: Part II, The ",2001: A Space Odyssey ,Aliens ,"Dirty Dozen, The ",All Quiet on the Western Front ,"Bridge Too Far, A ",Zulu ,Fight Club 
+200,E.T. the Extra-Terrestrial ,Ghostbusters  ,Saving Private Ryan ,"Sixth Sense, The ",American History X ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Longest Day, The ",All Quiet on the Western Front 
+201,Fight Club ,Amadeus ,American History X ,"Godfather, The ","Green Mile, The ",Clear and Present Danger ,"Killer, The  ",Hard-Boiled  ,Bullitt ,Shaft 
+202,"Big Lebowski, The ","Christmas Story, A ","Fish Called Wanda, A ",One Flew Over the Cuckoo's Nest ,Rear Window ,Amadeus ,What's Eating Gilbert Grape ,To Kill a Mockingbird ,Schindler's List ,Seven  
+203,Apollo 13 ,Crimson Tide ,Interview with the Vampire: The Vampire Chronicles ,Outbreak ,Stand by Me ,Easy Rider ,"Man Who Would Be King, The ","Straight Story, The ",Aguirre: The Wrath of God  ,Forrest Gump 
+204,"Shawshank Redemption, The ",Forrest Gump ,"Godfather: Part II, The ",Taxi Driver ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino ,Dead Man Walking ,"Shawshank Redemption, The "
+205,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ","Silence of the Lambs, The ",Fight Club 
+206,Heat ,Mighty Aphrodite ,"Time to Kill, A ",Die Hard ,"French Connection, The ",Die Hard: With a Vengeance ,Ronin ,Dirty Harry ,"Shawshank Redemption, The ",Pulp Fiction 
+207,"Shawshank Redemption, The ",Fight Club ,Forrest Gump ,Pulp Fiction ,"Silence of the Lambs, The ","Godfather, The ","Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino 
+208,Die Hard ,Raiders of the Lost Ark  ,"Shawshank Redemption, The ",Star Wars: Episode IV - A New Hope ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The "
+209,Schindler's List ,Full Metal Jacket ,Platoon ,Glory ,"Deer Hunter, The ",Patton ,Pulp Fiction ,"Usual Suspects, The ",Star Wars: Episode IV - A New Hope ,Schindler's List 
+210,Indiana Jones and the Last Crusade ,Yojimbo ,"Ghost and the Darkness, The ","Hidden Fortress, The  ","Touch of Zen, A  ",Commando ,"Shawshank Redemption, The ",Forrest Gump ,"Silence of the Lambs, The ",Fight Club 
+211,American History X ,Goodfellas ,"Green Mile, The ",Casino ,Dead Man Walking ,"Silence of the Lambs, The ",Schindler's List ,Braveheart ,Seven  ,Terminator 2: Judgment Day 
+212,"Godfather, The ",Aladdin ,Alien ,Braveheart ,Die Hard ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The ","Longest Day, The "
+213,Aliens ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Braveheart ,"Matrix, The ",Blade Runner ,Predator ,eXistenZ ,They Live ,Hangar 18 
+214,Twelve Monkeys  ,Broken Arrow ,Fargo ,Pulp Fiction ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,"Shawshank Redemption, The ",Pulp Fiction 
+215,"Matrix, The ",Being John Malkovich ,"Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live ,"Matrix, The ",Braveheart ,Seven  
+216,Brazil ,Fargo ,"Godfather, The ",North by Northwest ,Psycho ,American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino 
+217,One Flew Over the Cuckoo's Nest ,Airplane! ,American Beauty ,Apocalypse Now ,Being John Malkovich ,Good Will Hunting ,Casablanca ,Jerry Maguire ,Leaving Las Vegas ,Sense and Sensibility 
+218,Fight Club ,Star Wars: Episode IV - A New Hope ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+219,Braveheart ,Forrest Gump ,Alien ,"Green Mile, The ",2001: A Space Odyssey ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love 
+220,American Beauty ,Schindler's List ,Braveheart ,LÃ©on: The Professional   ,Monty Python and the Holy Grail ,Full Metal Jacket ,Platoon ,Glory ,"Deer Hunter, The ",Patton 
+221,"Godfather: Part II, The ",2001: A Space Odyssey ,Goldfinger ,"Great Escape, The ",In the Heat of the Night ,American History X ,"Green Mile, The ",Casino ,Dead Man Walking ,Bonnie and Clyde 
+222,"Shawshank Redemption, The ",12 Angry Men ,"Green Mile, The ",One Flew Over the Cuckoo's Nest ,Star Wars: Episode IV - A New Hope ,"Green Mile, The ",Casino ,Dead Man Walking ,Dog Day Afternoon ,"Shawshank Redemption, The "
+223,American Beauty ,American History X ,Fight Club ,Forrest Gump ,Terminator 2: Judgment Day ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,"Graduate, The "
+224,Star Wars: Episode V - The Empire Strikes Back ,Good Will Hunting ,Miracle on 34th Street ,Raiders of the Lost Ark  ,"Sixth Sense, The ",Stargate ,Superman ,Star Wars: Episode I - The Phantom Menace ,Mad Max ,Tron 
+225,E.T. the Extra-Terrestrial ,Ferris Bueller's Day Off ,Indiana Jones and the Last Crusade ,"Matrix, The ",Raiders of the Lost Ark  ,"Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live 
+226,"Truman Show, The ","Godfather, The ",Goodfellas ,Heat ,Saving Private Ryan ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Dead Man Walking 
+227,American Beauty ,American History X ,LÃ©on: The Professional   ,"Sixth Sense, The ","Usual Suspects, The ",Reservoir Dogs ,Dial M for Murder ,Following ,Basic Instinct ,Murder on the Orient Express 
+228,Fight Club ,Raiders of the Lost Ark  ,"Silence of the Lambs, The ",Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance ,Pulp Fiction ,Forrest Gump 
+229,Outbreak ,"Omega Man, The ",RoboCop ,"Crazies, The  ",Predator ,Eraser ,"Matrix, The ",Fight Club ,"Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+230,Forrest Gump ,American History X ,Indiana Jones and the Last Crusade ,"Matrix, The ",Pulp Fiction ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+231,Star Wars: Episode VI - Return of the Jedi ,Braveheart ,"Shawshank Redemption, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino ,"Shawshank Redemption, The ",Forrest Gump 
+232,Office Space ,"Usual Suspects, The ","Breakfast Club, The ","Fugitive, The ",Gattaca ,Reservoir Dogs ,Dial M for Murder ,Following ,Basic Instinct ,Murder on the Orient Express 
+233,Good Will Hunting ,Casablanca ,Jerry Maguire ,Sense and Sensibility ,Leaving Las Vegas ,"Piano, The ",Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Raiders of the Lost Ark  ,Terminator 2: Judgment Day 
+234,Beetlejuice ,Ghostbusters  ,"Nightmare Before Christmas, The ","Sixth Sense, The ",Wallace & Gromit: The Wrong Trousers ,Interview with the Vampire: The Vampire Chronicles ,Citizen Kane ,"Tenant, The  ","Exorcist, The ","Wicker Man, The "
+235,"Birdcage, The ",Happy Gilmore ,Wayne's World ,Airplane! ,Ferris Bueller's Day Off ,Animal House ,"Matrix, The ",Fight Club ,"Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+236,"Abominable Snowman, The  ",Attack of the Puppet People ,From Beyond ,"Thing from Another World, The ","Asphyx, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+237,Fight Club ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,Bullitt ,Pulp Fiction ,"Silence of the Lambs, The ",Fight Club ,Star Wars: Episode IV - A New Hope 
+238,"Shawshank Redemption, The ",Fight Club ,American History X ,Goodfellas ,"Green Mile, The ",Casino ,Dead Man Walking ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+239,Schindler's List ,"Sixth Sense, The ",Back to the Future ,Glory ,"Deer Hunter, The ",Patton ,"Killing Fields, The ",Ran ,Schindler's List ,Apollo 13 
+240,Forget Paris ,Ghost ,Heavy Metal ,Big ,"Fisher King, The ","Purple Rose of Cairo, The ",Juliet of the Spirits  ,Defending Your Life ,"Matrix, The ","Silence of the Lambs, The "
+241,American History X ,Goodfellas ,"Green Mile, The ",Casino ,Dead Man Walking ,Donnie Brasco ,Forrest Gump ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Raiders of the Lost Ark  
+242,Braveheart ,Beauty and the Beast ,Die Hard: With a Vengeance ,While You Were Sleeping ,Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The ","Matrix, The "
+243,Braveheart ,Jurassic Park ,"Fugitive, The ",In the Line of Fire ,Waterworld ,Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The "
+244,Jurassic Park ,Raiders of the Lost Ark  ,"Abyss, The ",Apocalypse Now ,Apollo 13 ,Indiana Jones and the Last Crusade ,Yojimbo ,"Hidden Fortress, The  ","Touch of Zen, A  ",Shogun Assassin 
+245,Toy Story ,Beauty and the Beast ,"Shawshank Redemption, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino ,"Shawshank Redemption, The ",Pulp Fiction 
+246,"Shawshank Redemption, The ",American Beauty ,American History X ,Indiana Jones and the Last Crusade ,Monty Python and the Holy Grail ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+247,Trainspotting ,"Player, The ",Crimes and Misdemeanors ,Something Wild ,Miami Blues ,Fried Green Tomatoes ,Independence Day  ,"Fugitive, The ",Alien ,Die Hard 
+248,Yojimbo ,"Ghost and the Darkness, The ","Hidden Fortress, The  ","Touch of Zen, A  ",Shogun Assassin ,"Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The ",Fight Club 
+249,Dogma ,Dead Poets Society ,Donnie Brasco ,Full Metal Jacket ,Gattaca ,Platoon ,Glory ,"Deer Hunter, The ",Patton ,"Killing Fields, The "
+250,Schindler's List ,Full Metal Jacket ,Platoon ,Glory ,"Deer Hunter, The ",Patton ,Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+251,American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino ,"Godfather, The ","Usual Suspects, The ",Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Raiders of the Lost Ark  
+252,Anastasia ,Fantasia 2000 ,Dumbo ,Tarzan ,"Secret of NIMH, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+253,Fight Club ,"Shawshank Redemption, The ",American Beauty ,Ferris Bueller's Day Off ,"Graduate, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+254,"Godfather: Part II, The ","Green Mile, The ",One Flew Over the Cuckoo's Nest ,Raiders of the Lost Ark  ,Indiana Jones and the Last Crusade ,Yojimbo ,"Ghost and the Darkness, The ","Hidden Fortress, The  ","Touch of Zen, A  ",Raiders of the Lost Ark  
+255,Pulp Fiction ,Raiders of the Lost Ark  ,Star Wars: Episode IV - A New Hope ,"Big Lebowski, The ","Breakfast Club, The ",Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+256,Die Hard ,Die Hard: With a Vengeance ,Heat ,Batman ,Natural Born Killers ,"French Connection, The ",Pulp Fiction ,Forrest Gump ,Fight Club ,"Usual Suspects, The "
+257,Star Wars: Episode IV - A New Hope ,Twelve Monkeys  ,Alien ,Aliens ,Batman ,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman 
+258,Forrest Gump ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love ,Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The ","Usual Suspects, The "
+259,"Fugitive, The ",Terminator 2: Judgment Day ,Starship Troopers ,"Running Man, The ",Superman II ,"Blood of Heroes, The  ",Death Race 2000 ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+260,"Shawshank Redemption, The ","Silence of the Lambs, The ",American Beauty ,Apocalypse Now ,"Breakfast Club, The ","Godfather, The ","Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino 
+261,Fight Club ,"Silence of the Lambs, The ","Clockwork Orange, A ","Godfather, The ","Godfather: Part II, The ",Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance 
+262,Braveheart ,Schindler's List ,"American President, The ",Forrest Gump ,Jurassic Park ,Life Is Beautiful  ,Train of Life  ,As Good as It Gets ,Shakespeare in Love ,"Graduate, The "
+263,Aladdin ,Fargo ,Gattaca ,Star Wars: Episode IV - A New Hope ,Terminator 2: Judgment Day ,Stargate ,Superman ,Mad Max ,Tron ,Demolition Man 
+264,Back to the Future ,"Silence of the Lambs, The ",Star Wars: Episode IV - A New Hope ,Pulp Fiction ,Raiders of the Lost Ark  ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+265,Aliens ,Die Hard ,Forrest Gump ,Indiana Jones and the Last Crusade ,"Fish Called Wanda, A ",Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,Shakespeare in Love ,"Graduate, The "
+266,Alien ,American Beauty ,"Godfather, The ",American History X ,Dead Poets Society ,Good Will Hunting ,Titanic ,Casablanca ,Jerry Maguire ,Leaving Las Vegas 
+267,Indiana Jones and the Last Crusade ,Yojimbo ,"Ghost and the Darkness, The ","Hidden Fortress, The  ","Touch of Zen, A  ",Commando ,"Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump ,Fight Club 
+268,Monty Python and the Holy Grail ,Reservoir Dogs ,Alien ,"Big Lebowski, The ",Blade Runner ,Dogma ,"Adventures of Baron Munchausen, The ",Hook ,Jabberwocky ,Erik the Viking 
+269,"Birdcage, The ",Dead Man Walking ,Primal Fear ,"River Wild, The ",Star Trek: First Contact ,Star Trek II: The Wrath of Khan ,Total Recall ,"Road Warrior, The  ","Abyss, The ",You Only Live Twice 
+270,"Time to Kill, A ","Insider, The ",Disclosure ,"China Syndrome, The ",Eye for an Eye ,Play Misty for Me ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+271,Blade Runner ,Braveheart ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman 
+272,Goodfellas ,American History X ,"Godfather: Part II, The ",Casino ,Dead Man Walking ,Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The ",Fight Club ,"Usual Suspects, The "
+273,Braveheart ,Schindler's List ,"Shawshank Redemption, The ","American President, The ",Like Water for Chocolate  ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+274,Gattaca ,Rocky ,"Blues Brothers, The ","Crow, The ","Hunt for Red October, The ",Communion ,WarGames ,Deep Impact ,"Thirteenth Floor, The ",Looker 
+275,Cape Fear ,"Deer Hunter, The ","Wizard of Oz, The ","African Queen, The ",Alien ,"Abominable Snowman, The  ",Attack of the Puppet People ,From Beyond ,"Thing from Another World, The ","Asphyx, The "
+276,What's Eating Gilbert Grape ,Philadelphia ,Rain Man ,Quiz Show ,Dead Poets Society ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ","Silence of the Lambs, The ",Fight Club 
+277,Executive Decision ,"Rock, The ",GoldenEye ,"Hunt for Red October, The ",Die Hard 2 ,Goldfinger ,Executive Decision ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+278,Fight Club ,Pulp Fiction ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Pulp Fiction ,"Matrix, The ",Forrest Gump 
+279,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman ,Mad Max ,Tron ,Schindler's List ,Seven  ,Apollo 13 ,"Princess Bride, The ",One Flew Over the Cuckoo's Nest 
+280,Aladdin ,Fight Club ,Office Space ,"Shawshank Redemption, The ","Truman Show, The ","Godfather, The ",American History X ,"Godfather: Part II, The ","Green Mile, The ",Casino 
+281,Fight Club ,"Shawshank Redemption, The ","Godfather, The ","Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+282,Fargo ,Star Wars: Episode V - The Empire Strikes Back ,Trainspotting ,Alien ,Aliens ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Superman ,Star Wars: Episode I - The Phantom Menace ,Mad Max 
+283,Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The ",Pulp Fiction ,"Matrix, The ",Fight Club ,"Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+284,"Lion King, The ",Crimson Tide ,Casper ,Home Alone ,"Santa Clause, The ",Anastasia ,Fantasia 2000 ,Dumbo ,Tarzan ,"Secret of NIMH, The "
+285,American Beauty ,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb ,Fargo ,Titanic ,Jerry Maguire ,Leaving Las Vegas ,Sense and Sensibility ,"Piano, The ","Shawshank Redemption, The ","Matrix, The "
+286,American Beauty ,"Shawshank Redemption, The ",Four Weddings and a Funeral ,"Godfather, The ",Twelve Monkeys  ,"Godfather, The ","Godfather: Part II, The ",Goodfellas ,Casino ,Dead Man Walking 
+287,Forrest Gump ,"Green Mile, The ","Shawshank Redemption, The ",American History X ,"Godfather, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+288,"Godfather, The ","Godfather: Part II, The ",Reservoir Dogs ,American Beauty ,To Kill a Mockingbird ,Leaving Las Vegas ,"Piano, The ",Breakfast at Tiffany's ,William Shakespeare's Romeo + Juliet,"Usual Suspects, The "
+289,Swing Kids ,Grand Illusion  ,Stalag 17 ,Casualties of War ,Sergeant York ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+290,"Graduate, The ",Gandhi ,Network ,This Is Spinal Tap ,12 Angry Men ,"Postman, The  ",Say Anything... ,Manhattan ,Emma ,Roman Holiday 
+291,Toy Story 2 ,Antz ,"Bug's Life, A ",Puss in Boots  ,"Black Cauldron, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+292,It's a Wonderful Life ,Rocky ,Aliens ,Apocalypse Now ,"Christmas Story, A ","Boot, Das  ","Dirty Dozen, The ",All Quiet on the Western Front ,"Longest Day, The ",Tora! Tora! Tora! 
+293,American History X ,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+294,Toy Story ,Wallace & Gromit: The Wrong Trousers ,Babe ,Being John Malkovich ,Blade Runner ,Toy Story 2 ,Antz ,Puss in Boots  ,"Black Cauldron, The ",Kirikou and the Sorceress  
+295,"Silence of the Lambs, The ",12 Angry Men ,American Beauty ,"Matrix, The ",Schindler's List ,"Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live 
+296,Reservoir Dogs ,Dial M for Murder ,Following ,Basic Instinct ,Murder on the Orient Express ,"Silence of the Lambs, The ",Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Raiders of the Lost Ark  ,American Beauty 
+297,Pulp Fiction ,Braveheart ,Casino ,Schindler's List ,Man Bites Dog  ,Freeway ,Trainspotting ,Get Shorty ,"Lock, Stock & Two Smoking Barrels ","Shawshank Redemption, The "
+298,Aladdin ,American History X ,Heat ,Monty Python's Life of Brian ,Platoon ,Robin Hood ,Hercules ,Oliver & Company ,"Bug's Life, A ","Jungle Book, The "
+299,Thesis  ,Dead Ringers ,Rosemary's Baby ,Phantoms ,What Ever Happened to Baby Jane? ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+300,Full Metal Jacket ,Platoon ,Glory ,"Deer Hunter, The ",Patton ,Pulp Fiction ,"Usual Suspects, The ",Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Raiders of the Lost Ark  
+301,Dances with Wolves ,Babe ,"Shawshank Redemption, The ",True Lies ,Crimson Tide ,"Godfather, The ","Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino 
+302,James and the Giant Peach ,Mighty Aphrodite ,Star Trek: First Contact ,Star Trek II: The Wrath of Khan ,Total Recall ,"Road Warrior, The  ","Abyss, The ",You Only Live Twice ,"Shawshank Redemption, The ","Matrix, The "
+303,Raiders of the Lost Ark  ,American Beauty ,Blade Runner ,Braveheart ,Die Hard ,Indiana Jones and the Last Crusade ,Yojimbo ,"Ghost and the Darkness, The ","Hidden Fortress, The  ","Touch of Zen, A  "
+304,As Good as It Gets ,Ferris Bueller's Day Off ,Fight Club ,"Green Mile, The ",Heat ,"Killer, The  ",Hard-Boiled  ,Bullitt ,Shaft ,Patriot Games 
+305,Dogma ,Braveheart ,"Fifth Element, The ",Indiana Jones and the Last Crusade ,Monty Python's Life of Brian ,Apocalypse Now ,"Boot, Das  ","Thin Red Line, The ","Longest Day, The ",Tora! Tora! Tora! 
+306,Fight Club ,"Matrix, The ","Shawshank Redemption, The ",Forrest Gump ,Schindler's List ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+307,"Last of the Mohicans, The ",LÃ©on: The Professional   ,Saving Private Ryan ,Amadeus ,Apocalypse Now ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Longest Day, The ",All Quiet on the Western Front 
+308,Pulp Fiction ,"Truman Show, The ",Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Pulp Fiction ,"Silence of the Lambs, The ",American Beauty 
+309,"Godfather, The ",One Flew Over the Cuckoo's Nest ,Alien ,Apocalypse Now ,Ben-Hur ,American History X ,"Godfather: Part II, The ","Green Mile, The ",Casino ,Dead Man Walking 
+310,"Fugitive, The ","Hunt for Red October, The ",Indiana Jones and the Last Crusade ,"Princess Bride, The ",Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman 
+311,American History X ,"Good, the Bad and the Ugly, The  ",Goodfellas ,Pulp Fiction ,Reservoir Dogs ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+312,Goodfellas ,LÃ©on: The Professional   ,Pulp Fiction ,Raiders of the Lost Ark  ,Seven  ,Man Bites Dog  ,Freeway ,Trainspotting ,Get Shorty ,"Lock, Stock & Two Smoking Barrels "
+313,Braveheart ,"Fifth Element, The ",Office Space ,"American Werewolf in London, An ",Dawn of the Dead ,"Boot, Das  ","Dirty Dozen, The ","Longest Day, The ",Tora! Tora! Tora! ,All Quiet on the Western Front 
+314,"Firm, The ",Interview with the Vampire: The Vampire Chronicles ,Legends of the Fall ,Quiz Show ,Disclosure ,"Time to Kill, A ","Insider, The ",Dolores Claiborne ,Fatal Attraction ,"Matrix, The "
+315,Casablanca ,E.T. the Extra-Terrestrial ,It's a Wonderful Life ,"Lion King, The ","Wizard of Oz, The ",Anastasia ,Fantasia 2000 ,Dumbo ,Tarzan ,"Secret of NIMH, The "
+316,Fight Club ,Pulp Fiction ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,"Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump 
+317,"Clockwork Orange, A ",Schindler's List ,Star Wars: Episode V - The Empire Strikes Back ,Platoon ,Glory ,"Deer Hunter, The ",Patton ,"Killing Fields, The ",Schindler's List ,Star Wars: Episode V - The Empire Strikes Back 
+318,Alien ,Fight Club ,"Godfather, The ",Braveheart ,Casino ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,Bullitt 
+319,Good Will Hunting ,American Beauty ,Jerry Maguire ,Sense and Sensibility ,Leaving Las Vegas ,Titanic ,Pulp Fiction ,"Silence of the Lambs, The ","Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+320,Strange Days ,"Godfather: Part III, The ",Cop Land ,Twin Peaks: Fire Walk with Me ,"Crossing Guard, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+321,Clueless ,Braveheart ,Dances with Wolves ,French Kiss ,GoldenEye ,Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The "
+322,American History X ,"Big Lebowski, The ",Star Wars: Episode IV - A New Hope ,Airplane! ,Apocalypse Now ,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman 
+323,"American President, The ","Birdcage, The ",Clueless ,Dances with Wolves ,Mission: Impossible ,True Grit ,Lonesome Dove ,Ride the High Country ,Quigley Down Under ,Return to Snowy River  
+324,"Silence of the Lambs, The ",Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+325,Alien ,Aliens ,Amadeus ,American Beauty ,Apocalypse Now ,Good Will Hunting ,Casablanca ,Jerry Maguire ,Leaving Las Vegas ,Sense and Sensibility 
+326,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The ","Longest Day, The ",Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Raiders of the Lost Ark  ,Terminator 2: Judgment Day ,Toy Story 
+327,Casablanca ,Pulp Fiction ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Pulp Fiction ,"Matrix, The ","Silence of the Lambs, The "
+328,American Beauty ,Ghostbusters  ,"Silence of the Lambs, The ",Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",True Romance ,Poltergeist ,"Silence of the Lambs, The ",American Beauty 
+329,Fight Club ,American History X ,Fargo ,Forrest Gump ,"Matrix, The ","Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live 
+330,Die Hard ,Gattaca ,Heat ,Indiana Jones and the Temple of Doom ,LÃ©on: The Professional   ,Clear and Present Danger ,"Killer, The  ",Hard-Boiled  ,Bullitt ,Patriot Games 
+331,"Godfather: Part II, The ",Blade Runner ,Seven  ,Trainspotting ,Rear Window ,Just Cause ,Saboteur ,True Crime ,Blow Out ,"Matrix, The "
+332,"Godfather, The ",Star Wars: Episode IV - A New Hope ,Full Metal Jacket ,One Flew Over the Cuckoo's Nest ,Dead Poets Society ,Star Wars: Episode I - The Phantom Menace ,Superman ,Tron ,Demolition Man ,Star Trek III: The Search for Spock 
+333,"Godfather, The ",Schindler's List ,Full Metal Jacket ,Platoon ,Glory ,"Deer Hunter, The ","Killing Fields, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+334,Aliens ,Die Hard ,Saving Private Ryan ,"Silence of the Lambs, The ",Braveheart ,Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance 
+335,Schindler's List ,Full Metal Jacket ,Platoon ,Glory ,"Deer Hunter, The ",Patton ,Fight Club ,Star Wars: Episode IV - A New Hope ,Schindler's List ,Raiders of the Lost Ark  
+336,Reservoir Dogs ,Dial M for Murder ,Following ,Basic Instinct ,Murder on the Orient Express ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Raiders of the Lost Ark  ,Jurassic Park ,Independence Day  
+337,Die Hard ,"French Connection, The ",Die Hard: With a Vengeance ,Ronin ,Dirty Harry ,Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The ",Fight Club 
+338,American History X ,"Matrix, The ",One Flew Over the Cuckoo's Nest ,"Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live ,"Matrix, The ",Forrest Gump 
+339,American History X ,"Matrix, The ",Trainspotting ,Good Will Hunting ,LÃ©on: The Professional   ,"Terminator, The ",Predator ,eXistenZ ,They Live ,Hangar 18 
+340,True Lies ,Twister ,"Stunt Man, The ","Three Musketeers, The ",Romancing the Stone ,First Strike   ,"Matrix, The ","Silence of the Lambs, The ",Fight Club ,"Usual Suspects, The "
+341,"Matrix, The ","Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+342,"Sixth Sense, The ",Interview with the Vampire: The Vampire Chronicles ,Citizen Kane ,"Tenant, The  ","Exorcist, The ","Wicker Man, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+343,Fargo ,Seven  ,Rear Window ,Just Cause ,Saboteur ,True Crime ,Blow Out ,Forrest Gump ,Braveheart ,Seven  
+344,Terminator 2: Judgment Day ,American History X ,Fight Club ,"Godfather, The ",Good Will Hunting ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  
+345,Alice in Wonderland ,"Apartment, The ",Apollo 13 ,Stand by Me ,Easy Rider ,"Man Who Would Be King, The ","Straight Story, The ",Aguirre: The Wrath of God  ,"Shawshank Redemption, The ",Pulp Fiction 
+346,Run Lola Run  ,Bicycle Thieves    ,"Crying Game, The ","Graduate, The ",2001: A Space Odyssey ,"Postman, The  ",Say Anything... ,Manhattan ,Emma ,Roman Holiday 
+347,Clear and Present Danger ,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+348,12 Angry Men ,"Matrix, The ","Terminator, The ",Predator ,eXistenZ ,They Live ,Hangar 18 ,"Matrix, The ",Forrest Gump ,Raiders of the Lost Ark  
+349,"Fugitive, The ",Braveheart ,"Shawshank Redemption, The ",Apollo 13 ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The "
+350,Independence Day  ,Jurassic Park ,Total Recall ,"Abyss, The ",Star Trek II: The Wrath of Khan ,Escape from New York ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+351,"Shawshank Redemption, The ",American Beauty ,American History X ,Saving Private Ryan ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The "
+352,"Godfather, The ","Godfather: Part II, The ",Casino ,Dead Man Walking ,Dog Day Afternoon ,Bonnie and Clyde ,Braveheart ,Terminator 2: Judgment Day ,Toy Story ,Apollo 13 
+353,Toy Story 2 ,Antz ,"Bug's Life, A ",Puss in Boots  ,"Black Cauldron, The ","Matrix, The ",Forrest Gump ,Fight Club ,"Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+354,Indiana Jones and the Last Crusade ,Trainspotting ,Braveheart ,Fargo ,LÃ©on: The Professional   ,"Dirty Dozen, The ","Thin Red Line, The ","Longest Day, The ",Tora! Tora! Tora! ,All Quiet on the Western Front 
+355,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,E.T. the Extra-Terrestrial ,Forrest Gump ,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+356,American History X ,"Godfather, The ",Pulp Fiction ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,"Few Good Men, A "
+357,12 Angry Men ,Ace Ventura: Pet Detective ,Being John Malkovich ,"Big Lebowski, The ",Boogie Nights ,Happy Gilmore ,Liar Liar ,Robin Hood: Men in Tights ,My Cousin Vinny ,Father of the Bride Part II 
+358,Jerry Maguire ,Leaving Las Vegas ,Good Will Hunting ,American Beauty ,"Piano, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+359,American History X ,Fight Club ,Forrest Gump ,"Shawshank Redemption, The ",Groundhog Day ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+360,Payback ,Enemy of the State ,"River Wild, The ",In the Line of Fire ,Breakdown ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+361,Die Hard ,Jurassic Park ,"Matrix, The ",Back to the Future ,"Fifth Element, The ","Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live 
+362,American Beauty ,Trainspotting ,Office Space ,"Sixth Sense, The ",Good Will Hunting ,Titanic ,Casablanca ,Jerry Maguire ,Leaving Las Vegas ,Schindler's List 
+363,Forrest Gump ,Fight Club ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,"Graduate, The ","American President, The ",Forrest Gump ,"Silence of the Lambs, The ",Fight Club 
+364,Leaving Las Vegas ,Jerry Maguire ,"Piano, The ",Sense and Sensibility ,William Shakespeare's Romeo + Juliet,Phenomenon ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+365,"Sixth Sense, The ",Interview with the Vampire: The Vampire Chronicles ,Citizen Kane ,"Tenant, The  ","Exorcist, The ","Wicker Man, The ",Pulp Fiction ,"Matrix, The ",Fight Club ,"Usual Suspects, The "
+366,"Matrix, The ",Raiders of the Lost Ark  ,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction 
+367,Fight Club ,"Princess Bride, The ",Pulp Fiction ,Aladdin ,Braveheart ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+368,Star Wars: Episode I - The Phantom Menace ,Galaxy Quest ,Office Space ,Sleepy Hollow ,Akira ,Demolition Man ,"Shawshank Redemption, The ",Fight Club ,Toy Story ,Apollo 13 
+369,Goodfellas ,Monty Python's Life of Brian ,Pulp Fiction ,American Beauty ,Austin Powers: The Spy Who Shagged Me ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Get Shorty 
+370,Man Bites Dog  ,Freeway ,Taxi Driver ,Get Shorty ,"Lock, Stock & Two Smoking Barrels ",Forrest Gump ,Schindler's List ,Braveheart ,Toy Story ,Apollo 13 
+371,Reservoir Dogs ,Alien ,Blade Runner ,Clerks ,Full Metal Jacket ,"Abominable Snowman, The  ",Attack of the Puppet People ,From Beyond ,"Thing from Another World, The ","Asphyx, The "
+372,Amadeus ,Annie Hall ,Butch Cassidy and the Sundance Kid ,Gandhi ,"Graduate, The ",To Kill a Mockingbird ,Cool Hand Luke ,Rocky ,Raging Bull ,Boogie Nights 
+373,Crimson Tide ,Rob Roy ,Fail-Safe ,Salvador ,Army of Shadows  ,Throne of Blood  ,"Firm, The ","Matrix, The ",Fight Club ,Star Wars: Episode IV - A New Hope 
+374,Outbreak ,"Omega Man, The ",RoboCop ,"Crazies, The  ",Predator ,Eraser ,"Matrix, The ","Silence of the Lambs, The ",Fight Club ,"Usual Suspects, The "
+375,"Matrix, The ",Star Wars: Episode IV - A New Hope ,American Beauty ,Dances with Wolves ,Fight Club ,"Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live 
+376,Die Hard ,"Shawshank Redemption, The ",American Beauty ,American History X ,Fargo ,American History X ,Goodfellas ,"Green Mile, The ",Casino ,Dead Man Walking 
+377,Being John Malkovich ,"Big Lebowski, The ",Blade Runner ,Blazing Saddles ,Braveheart ,Saving Private Ryan ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The ","Longest Day, The "
+378,"Godfather: Part II, The ",Pulp Fiction ,"Usual Suspects, The ",Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Pulp Fiction ,"Matrix, The "
+379,Star Trek: Generations ,2001: A Space Odyssey ,Close Encounters of the Third Kind ,"20,000 Leagues Under the Sea ","Philadelphia Experiment, The ",Enemy Mine ,"Matrix, The ","Silence of the Lambs, The ",Fight Club ,"Usual Suspects, The "
+380,Office Space ,Good Will Hunting ,Schindler's List ,Akira ,American Beauty ,Platoon ,Glory ,"Deer Hunter, The ",Patton ,"Killing Fields, The "
+381,American Beauty ,Being John Malkovich ,"Godfather, The ",Saving Private Ryan ,Schindler's List ,Full Metal Jacket ,Platoon ,Glory ,"Deer Hunter, The ",Patton 
+382,Back to the Future ,Back to the Future Part II ,Galaxy Quest ,Bill & Ted's Excellent Adventure ,Star Trek IV: The Voyage Home ,"Adventures of Buckaroo Banzai Across the 8th Dimension, The ",American Beauty ,Braveheart ,Seven  ,Terminator 2: Judgment Day 
+383,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+384,Star Wars: Episode IV - A New Hope ,Alien ,American Beauty ,American History X ,"Fifth Element, The ",Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman 
+385,12 Angry Men ,Babe ,Clerks ,Glory ,In the Line of Fire ,Ferris Bueller's Day Off ,Airplane! ,"Birdcage, The ",Happy Gilmore ,Animal House 
+386,Apollo 13 ,Jumanji ,"Lion King, The ",Stand by Me ,Easy Rider ,"Man Who Would Be King, The ","Straight Story, The ",Aguirre: The Wrath of God  ,"Matrix, The ",Forrest Gump 
+387,Amadeus ,"Boot, Das  ",Carlito's Way ,"Green Mile, The ",Magnolia ,12 Angry Men ,Dead Poets Society ,What's Eating Gilbert Grape ,Sling Blade ,Little Women 
+388,Big Trouble in Little China ,Romancing the Stone ,Clash of the Titans ,"Three Musketeers, The ",Last Action Hero ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+389,Dead Man Walking ,Willy Wonka & the Chocolate Factory ,Mary Poppins ,Babes in Toyland ,"Muppet Christmas Carol, The ","Addams Family, The ","5,000 Fingers of Dr. T, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+390,Forrest Gump ,"Shawshank Redemption, The ","Godfather, The ","Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino ,"Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump 
+391,Dances with Wolves ,"Green Mile, The ",Raising Arizona ,To Kill a Mockingbird ,"Wizard of Oz, The ",True Grit ,Lonesome Dove ,Ride the High Country ,Quigley Down Under ,Return to Snowy River  
+392,"Matrix, The ",Clerks ,"Sixth Sense, The ","Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live ,"Shawshank Redemption, The ",Pulp Fiction 
+393,"Godfather, The ",Pulp Fiction ,Saving Private Ryan ,Seven  ,"Shawshank Redemption, The ","Godfather, The ","Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino 
+394,Clear and Present Danger ,"Lion King, The ","Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction 
+395,Apollo 13 ,Crimson Tide ,"Fugitive, The ",Ace Ventura: Pet Detective ,Demolition Man ,Stand by Me ,Easy Rider ,"Man Who Would Be King, The ","Straight Story, The ",Aguirre: The Wrath of God  
+396,Antz ,"Bug's Life, A ",Puss in Boots  ,"Black Cauldron, The ",Kirikou and the Sorceress  ,Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The ",Fight Club 
+397,Apocalypse Now ,Blade Runner ,Casablanca ,Chinatown ,Citizen Kane ,Good Will Hunting ,Sense and Sensibility ,Leaving Las Vegas ,Breakfast at Tiffany's ,Before Sunrise 
+398,Life Is Beautiful  ,"Matrix, The ",Schindler's List ,"Shawshank Redemption, The ",Toy Story ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+399,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman ,Mad Max ,Tron ,"Shawshank Redemption, The ","Usual Suspects, The ",Seven  ,Apollo 13 ,"Godfather, The "
+400,American Beauty ,American History X ,Good Will Hunting ,Titanic ,Casablanca ,Jerry Maguire ,Leaving Las Vegas ,Schindler's List ,American Beauty ,Braveheart 
+401,Lady and the Tramp ,Boniface's Holiday ,"Little Mermaid, The ","Parent Trap, The ","Parent Trap, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ","Silence of the Lambs, The ",Fight Club 
+402,Braveheart ,Forrest Gump ,Apollo 13 ,Crimson Tide ,Dances with Wolves ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love 
+403,"Shawshank Redemption, The ","Silence of the Lambs, The ","Matrix, The ",Trainspotting ,"Usual Suspects, The ","Godfather, The ","Godfather: Part II, The ","Green Mile, The ",Casino ,Dead Man Walking 
+404,Mission: Impossible ,North by Northwest ,GoldenEye ,"Rock, The ","Hunt for Red October, The ",Die Hard 2 ,"Matrix, The ",Fight Club ,"Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+405,American Beauty ,Fargo ,Scarface ,Star Wars: Episode IV - A New Hope ,Aliens ,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman 
+406,10 Things I Hate About You ,Clueless ,American Beauty ,Beauty and the Beast ,Forrest Gump ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love 
+407,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The "
+408,"Fantastic Planet, The  ",Time Masters  ,Runaway Brain ,"Mystery of the Third Planet, The  ","Boy and His Dog, A ",Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The ",Fight Club ,"Usual Suspects, The "
+409,Rear Window ,2001: A Space Odyssey ,Apocalypse Now ,Blade Runner ,Chinatown ,True Crime ,Saboteur ,Blow Out ,Just Cause ,Eyes of Laura Mars 
+410,"Godfather, The ",Goodfellas ,L.A. Confidential ,Monty Python and the Holy Grail ,Psycho ,American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino 
+411,Aladdin ,"Birdcage, The ",Robin Hood ,Hercules ,Oliver & Company ,"Bug's Life, A ","Jungle Book, The ","Matrix, The ",Fight Club ,Star Wars: Episode IV - A New Hope 
+412,"Manchurian Candidate, The ",Raiders of the Lost Ark  ,Apocalypse Now ,Casablanca ,Get Shorty ,Indiana Jones and the Last Crusade ,Yojimbo ,"Ghost and the Darkness, The ","Hidden Fortress, The  ","Touch of Zen, A  "
+413,"Usual Suspects, The ","Matrix, The ",Seven  ,Taxi Driver ,"Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live ,"Matrix, The "
+414,Modern Times ,Life Is Beautiful  ,"Shining, The ",Psycho ,"Santa Clause, The ",Robin Hood: Men in Tights ,Addams Family Values ,Ace Ventura: When Nature Calls ,Lamerica ,Heidi Fleiss: Hollywood Madam 
+415,Back to the Future ,Schindler's List ,Star Wars: Episode V - The Empire Strikes Back ,Full Metal Jacket ,Platoon ,Glory ,"Deer Hunter, The ",Patton ,Schindler's List ,Star Wars: Episode V - The Empire Strikes Back 
+416,American History X ,"Silence of the Lambs, The ","Godfather, The ",One Flew Over the Cuckoo's Nest ,Seven  ,Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",True Romance ,"Birds, The "
+417,Fargo ,Star Wars: Episode IV - A New Hope ,"Usual Suspects, The ",Dial M for Murder ,Following ,Basic Instinct ,Murder on the Orient Express ,Frantic ,"Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+418,American History X ,Saving Private Ryan ,Braveheart ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Longest Day, The ","Matrix, The ",Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back 
+419,"Shining, The ","Big Lebowski, The ",Fargo ,Man Bites Dog  ,Freeway ,Get Shorty ,"Few Good Men, A ",Jackie Brown ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back 
+420,"Godfather, The ",Saving Private Ryan ,"Big Lebowski, The ",Fargo ,Good Will Hunting ,"Godfather: Part II, The ",Goodfellas ,Casino ,Dead Man Walking ,Donnie Brasco 
+421,Fight Club ,"Godfather, The ","Matrix, The ",American History X ,"Godfather: Part II, The ","Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live 
+422,12 Angry Men ,Aladdin ,Fargo ,"Godfather: Part II, The ","Matrix, The ","Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live 
+423,Stand by Me ,Easy Rider ,"Man Who Would Be King, The ","Straight Story, The ",Aguirre: The Wrath of God  ,"Matrix, The ","Silence of the Lambs, The ",Fight Club ,"Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+424,Forrest Gump ,Star Wars: Episode IV - A New Hope ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,Shakespeare in Love ,"Graduate, The ",Forrest Gump ,Star Wars: Episode IV - A New Hope ,Schindler's List 
+425,Goodfellas ,"Princess Bride, The ",Akira ,Blade Runner ,Casino ,Big Trouble in Little China ,Romancing the Stone ,Clash of the Titans ,"Jewel of the Nile, The ","Four Musketeers, The "
+426,Babe ,Crimson Tide ,"Fugitive, The ",Speed ,Toy Story ,Toy Story 2 ,Antz ,"Bug's Life, A ",Puss in Boots  ,"Black Cauldron, The "
+427,Reservoir Dogs ,"Shawshank Redemption, The ",Fight Club ,Goodfellas ,"Silence of the Lambs, The ","Godfather, The ","Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Dead Man Walking 
+428,Office Space ,"Shawshank Redemption, The ","Godfather, The ",Good Will Hunting ,"Green Mile, The ","Godfather, The ","Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino 
+429,GoldenEye ,Batman Forever ,Braveheart ,Forrest Gump ,"Fugitive, The ",Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love 
+430,Fight Club ,Saving Private Ryan ,"Silence of the Lambs, The ",Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance ,Pulp Fiction ,"Silence of the Lambs, The "
+431,Body Heat ,King of New York ,Ransom ,Red Corner ,"Day of the Jackal, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+432,Saving Private Ryan ,Back to the Future ,Indiana Jones and the Last Crusade ,Raiders of the Lost Ark  ,Reservoir Dogs ,Indiana Jones and the Last Crusade ,Yojimbo ,"Ghost and the Darkness, The ","Hidden Fortress, The  ","Touch of Zen, A  "
+433,"Godfather, The ","Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino ,Dead Man Walking ,"Matrix, The ",Forrest Gump ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back 
+434,Raiders of the Lost Ark  ,"Usual Suspects, The ",Dances with Wolves ,"Lion King, The ",Monty Python's Life of Brian ,Dial M for Murder ,Following ,Basic Instinct ,Murder on the Orient Express ,Frantic 
+435,Pulp Fiction ,Goodfellas ,Schindler's List ,"Silence of the Lambs, The ",Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Pulp Fiction 
+436,Braveheart ,Dances with Wolves ,Disclosure ,Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The ",Pulp Fiction ,"Matrix, The "
+437,"Fugitive, The ","Silence of the Lambs, The ","American President, The ",In the Line of Fire ,Legends of the Fall ,Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance 
+438,Indiana Jones and the Last Crusade ,American Beauty ,"Godfather, The ",LÃ©on: The Professional   ,Pulp Fiction ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+439,Fight Club ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,Pulp Fiction ,"Silence of the Lambs, The ",Fight Club ,"Usual Suspects, The "
+440,"Clockwork Orange, A ",Delicatessen ,Ghost in the Shell  ,"Matrix, The ","Terminator, The ",Predator ,eXistenZ ,They Live ,Hangar 18 ,"Shawshank Redemption, The "
+441,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Superman ,Mad Max ,Tron ,"Shawshank Redemption, The ",Forrest Gump ,"Usual Suspects, The ",American Beauty ,Braveheart 
+442,Homeward Bound II: Lost in San Francisco ,Fly Away Home ,Swiss Family Robinson ,Alaska ,"Journey of Natty Gann, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+443,"Godfather, The ","Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino ,"Usual Suspects, The ",Schindler's List ,Star Wars: Episode V - The Empire Strikes Back ,Raiders of the Lost Ark  ,Seven  
+444,"Fugitive, The ",Interview with the Vampire: The Vampire Chronicles ,"Lion King, The ",Twelve Monkeys  ,Sleepers ,Cape Fear ,"Dead Zone, The ",Arlington Road ,Red Rock West ,"Matrix, The "
+445,"Godfather, The ","Shawshank Redemption, The ",Apocalypse Now ,Goodfellas ,Reservoir Dogs ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+446,Braveheart ,"Shawshank Redemption, The ",Crimson Tide ,Twister ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The "
+447,Crimson Tide ,Seven  ,Sleepless in Seattle ,Rear Window ,Saboteur ,True Crime ,Blow Out ,Eyes of Laura Mars ,"Matrix, The ",Fight Club 
+448,Army of Darkness ,"Big Lebowski, The ",LÃ©on: The Professional   ,Aladdin ,Amadeus ,"Killer, The  ",Hard-Boiled  ,Shaft ,"Getaway, The ","Blood In, Blood Out "
+449,"Silence of the Lambs, The ","Matrix, The ",Pulp Fiction ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Pulp Fiction ,"Matrix, The "
+450,Fight Club ,American History X ,"Big Lebowski, The ",Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb ,Fargo ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  
+451,Dead Man Walking ,Mighty Aphrodite ,Casino ,Donnie Brasco ,Carlito's Way ,Dog Day Afternoon ,Bonnie and Clyde ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+452,Fight Club ,"Game, The ",LÃ©on: The Professional   ,Pulp Fiction ,"Shawshank Redemption, The ",American History X ,Goodfellas ,Casino ,Dead Man Walking ,Donnie Brasco 
+453,Indiana Jones and the Last Crusade ,Raiders of the Lost Ark  ,Ghostbusters  ,"Green Mile, The ",LÃ©on: The Professional   ,Indiana Jones and the Last Crusade ,Yojimbo ,"Ghost and the Darkness, The ","Hidden Fortress, The  ","Touch of Zen, A  "
+454,Fargo ,American History X ,Fight Club ,"Godfather, The ","Graduate, The ",LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  
+455,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Pulp Fiction ,"Matrix, The ",Fight Club ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back 
+456,Broken Arrow ,Executive Decision ,Heat ,Leaving Las Vegas ,"Time to Kill, A ",Die Hard ,"French Connection, The ",Die Hard: With a Vengeance ,Ronin ,Dirty Harry 
+457,"Matrix, The ",Star Wars: Episode VI - Return of the Jedi ,Dogma ,Good Will Hunting ,Saving Private Ryan ,"Terminator, The ",Blade Runner ,Predator ,They Live ,Hangar 18 
+458,Babe ,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ","Matrix, The ","Silence of the Lambs, The "
+459,Raiders of the Lost Ark  ,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Superman ,Star Wars: Episode I - The Phantom Menace ,Mad Max ,"Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump 
+460,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Pulp Fiction ,"Silence of the Lambs, The ","Usual Suspects, The ",Star Wars: Episode IV - A New Hope ,Schindler's List 
+461,Fight Club ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,Pulp Fiction ,Fight Club ,"Usual Suspects, The ",Star Wars: Episode V - The Empire Strikes Back 
+462,To Kill a Mockingbird ,Ferris Bueller's Day Off ,Groundhog Day ,"Killing Fields, The ",M*A*S*H  ,Boccaccio '70 ,Splash ,"Midsummer Night's Dream, A ",Here Comes Mr. Jordan ,"Bell, Book and Candle "
+463,"Shawshank Redemption, The ","Matrix, The ",Fight Club ,"Godfather, The ",American History X ,Goodfellas ,"Green Mile, The ",Casino ,"Shawshank Redemption, The ","Matrix, The "
+464,Alien ,Aliens ,2001: A Space Odyssey ,Apollo 13 ,"Fugitive, The ",Stand by Me ,Easy Rider ,"Man Who Would Be King, The ","Straight Story, The ",Aguirre: The Wrath of God  
+465,"Boot, Das  ",Star Wars: Episode IV - A New Hope ,Full Metal Jacket ,"Godfather, The ",Jaws ,Stargate ,Superman ,Tron ,Demolition Man ,Waterworld 
+466,Schindler's List ,Full Metal Jacket ,Platoon ,Glory ,"Deer Hunter, The ",Patton ,Pulp Fiction ,"Silence of the Lambs, The ","Usual Suspects, The ",Schindler's List 
+467,Fight Club ,Good Will Hunting ,Pulp Fiction ,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The "
+468,"Silence of the Lambs, The ",While You Were Sleeping ,Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+469,Forrest Gump ,"Full Monty, The ",Beauty and the Beast ,Ed Wood ,Glory ,Train of Life  ,Sleepless in Seattle ,Chasing Amy ,"English Patient, The ",Forrest Gump 
+470,Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The ","Matrix, The ","Silence of the Lambs, The ",Fight Club ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back 
+471,"Shawshank Redemption, The ",Good Will Hunting ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ","Silence of the Lambs, The ","Usual Suspects, The "
+472,Fight Club ,Pulp Fiction ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Pulp Fiction ,"Matrix, The ",Forrest Gump 
+473,"Godfather, The ","Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino ,Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The ","Usual Suspects, The "
+474,Army of Darkness ,Carlito's Way ,"Fifth Element, The ",RoboCop ,"Last Starfighter, The ",Die Hard: With a Vengeance ,Dumb & Dumber  ,"Lock, Stock & Two Smoking Barrels ","South Park: Bigger, Longer and Uncut ","Fifth Element, The "
+475,Die Hard ,Heat ,Natural Born Killers ,"French Connection, The ",Ronin ,Dirty Harry ,"Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The "
+476,Braveheart ,Mr. Holland's Opus ,Philadelphia ,Schindler's List ,"Silence of the Lambs, The ",Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance 
+477,Fight Club ,American History X ,GoldenEye ,Good Will Hunting ,"Princess Bride, The ",LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  
+478,Twelve Monkeys  ,Seconds ,"Stepford Wives, The ",Unforgettable ,Seven  ,Rear Window ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+479,Casablanca ,Star Wars: Episode V - The Empire Strikes Back ,Back to the Future ,Big ,Butch Cassidy and the Sundance Kid ,Stargate ,Superman ,Star Wars: Episode I - The Phantom Menace ,Mad Max ,Tron 
+480,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb ,Stripes ,"General, The ",Don't Look Now: We're Being Shot At  ,And the Ship Sails On  ,Catch-22 ,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb ,Rear Window ,Casablanca ,"Good, the Bad and the Ugly, The  "
+481,Forrest Gump ,"Game, The ",Good Will Hunting ,Saving Private Ryan ,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+482,E.T. the Extra-Terrestrial ,Indiana Jones and the Last Crusade ,Star Wars: Episode V - The Empire Strikes Back ,Terminator 2: Judgment Day ,Braveheart ,Star Wars: Episode VI - Return of the Jedi ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode I - The Phantom Menace ,Mad Max ,Tron 
+483,Ferris Bueller's Day Off ,Goodfellas ,Office Space ,Reservoir Dogs ,Rocky ,Dead Man Walking ,Donnie Brasco ,Bonnie and Clyde ,Dog Day Afternoon ,"Silence of the Lambs, The "
+484,Pretty Woman ,Cruel Intentions ,"Godfather, The ",Good Will Hunting ,Mary Poppins ,"Godfather: Part II, The ","Green Mile, The ",Casino ,Dead Man Walking ,Donnie Brasco 
+485,"Shawshank Redemption, The ","Firm, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+486,Dances with Wolves ,True Grit ,Lonesome Dove ,Ride the High Country ,Quigley Down Under ,Return to Snowy River  ,"Matrix, The ",Fight Club ,"Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+487,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman ,Pulp Fiction ,Forrest Gump ,"Usual Suspects, The ",Schindler's List ,Star Wars: Episode V - The Empire Strikes Back 
+488,Fight Club ,"Godfather, The ","Godfather: Part II, The ",Star Wars: Episode IV - A New Hope ,Back to the Future ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  
+489,12 Angry Men ,Being John Malkovich ,"Godfather, The ","Princess Bride, The ",Schindler's List ,Full Metal Jacket ,Platoon ,Glory ,Patton ,"Killing Fields, The "
+490,Life Is Beautiful  ,"Big Lebowski, The ",Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,"Lock, Stock & Two Smoking Barrels ","Shawshank Redemption, The ","Usual Suspects, The "
+491,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ","Silence of the Lambs, The "
+492,Minnie and Moskowitz ,Double Impact ,"Hunted, The ",Once Upon a Time in China III  ,Only the Strong ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+493,Die Hard ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Tron ,Demolition Man ,Star Trek III: The Search for Spock ,"Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump 
+494,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The ","Longest Day, The ","Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The ",Fight Club 
+495,Pulp Fiction ,American History X ,"Clockwork Orange, A ",Fargo ,"Green Mile, The ",Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+496,Fight Club ,Schindler's List ,"Shawshank Redemption, The ",Good Will Hunting ,One Flew Over the Cuckoo's Nest ,American History X ,Goodfellas ,"Green Mile, The ",Casino ,Dead Man Walking 
+497,Forrest Gump ,Pulp Fiction ,Seven  ,Man Bites Dog  ,Freeway ,Trainspotting ,Get Shorty ,"Lock, Stock & Two Smoking Barrels ",Pulp Fiction ,Forrest Gump 
+498,Star Trek: Generations ,Beauty and the Beast ,Die Hard: With a Vengeance ,Cinderella ,"Nightmare Before Christmas, The ",Fantasia ,Pinocchio ,Peter Pan ,"Matrix, The ","Silence of the Lambs, The "
+499,Pulp Fiction ,American Beauty ,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb ,"Silence of the Lambs, The ",Braveheart ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+500,Fight Club ,Saving Private Ryan ,"Truman Show, The ",American History X ,Austin Powers: International Man of Mystery ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  
+501,"Rock, The ",Fargo ,Mighty Aphrodite ,Mission: Impossible ,Phenomenon ,Pulp Fiction ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+502,"Matrix, The ",Schindler's List ,American History X ,Cool Hand Luke ,"Godfather, The ","Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live 
+503,"Usual Suspects, The ",American History X ,Seven  ,"Shining, The ",Dial M for Murder ,Following ,Basic Instinct ,Murder on the Orient Express ,Frantic ,"Usual Suspects, The "
+504,Annie Hall ,There's Something About Mary ,Dave ,Much Ado About Nothing ,Sixteen Candles ,"Shawshank Redemption, The ","Matrix, The ",Forrest Gump ,"Silence of the Lambs, The ",Fight Club 
+505,"Matrix, The ",Pulp Fiction ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Reservoir Dogs ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+506,10 Things I Hate About You ,Beauty and the Beast ,Forrest Gump ,Titanic ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love ,"Shawshank Redemption, The "
+507,"Lion King, The ",Anastasia ,Fantasia 2000 ,Dumbo ,Tarzan ,"Secret of NIMH, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Fight Club 
+508,"Matrix, The ",Raiders of the Lost Ark  ,"Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+509,Mary Poppins ,Back to the Future ,E.T. the Extra-Terrestrial ,Monty Python's And Now for Something Completely Different ,"Sound of Music, The ",Back to the Future Part II ,Galaxy Quest ,Bill & Ted's Excellent Adventure ,Star Trek IV: The Voyage Home ,"Adventures of Buckaroo Banzai Across the 8th Dimension, The "
+510,Pulp Fiction ,"Shawshank Redemption, The ",Star Wars: Episode IV - A New Hope ,12 Angry Men ,2001: A Space Odyssey ,American History X ,"Godfather: Part II, The ","Green Mile, The ",Dead Man Walking ,Carlito's Way 
+511,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Pulp Fiction ,"Silence of the Lambs, The ","Usual Suspects, The ",Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back 
+512,Babe ,"Little Princess, A ","Secret Garden, The ",My Dog Skip ,Old Yeller ,Now and Then ,"Matrix, The ",Fight Club ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back 
+513,Forrest Gump ,"Godfather, The ","Matrix, The ",Schindler's List ,Seven  ,"Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live 
+514,"League of Their Own, A ",Schindler's List ,Braveheart ,"Shawshank Redemption, The ",2001: A Space Odyssey ,"Godfather, The ",American History X ,"Godfather: Part II, The ","Green Mile, The ",Dead Man Walking 
+515,"Matrix, The ","Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live ,Pulp Fiction ,"Matrix, The ","Silence of the Lambs, The ",Star Wars: Episode V - The Empire Strikes Back 
+516,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+517,"Princess Bride, The ",Fargo ,Toy Story 2 ,"Usual Suspects, The ",12 Angry Men ,Reservoir Dogs ,Dial M for Murder ,Following ,Basic Instinct ,Murder on the Orient Express 
+518,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+519,"Godfather, The ","Godfather: Part II, The ",Goodfellas ,"Green Mile, The ",Casino ,Pulp Fiction ,"Matrix, The ","Silence of the Lambs, The ",Fight Club ,"Usual Suspects, The "
+520,Fight Club ,"South Park: Bigger, Longer and Uncut ",Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Toy Story ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  
+521,"Birdcage, The ",Sense and Sensibility ,Star Trek: First Contact ,Toy Story ,Mr. Holland's Opus ,Toy Story 2 ,Antz ,"Bug's Life, A ",Puss in Boots  ,"Black Cauldron, The "
+522,Indiana Jones and the Temple of Doom ,Terminator 2: Judgment Day ,Casablanca ,Ghostbusters  ,"Green Mile, The ",Starship Troopers ,"Running Man, The ",Superman II ,"Blood of Heroes, The  ",Death Race 2000 
+523,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,Bullitt ,Pulp Fiction ,"Matrix, The ","Silence of the Lambs, The ","Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+524,Forrest Gump ,"Fifth Element, The ","Fish Called Wanda, A ",Groundhog Day ,Pulp Fiction ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+525,"Shining, The ",Big ,E.T. the Extra-Terrestrial ,"Godfather, The ",Pulp Fiction ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Get Shorty 
+526,American History X ,"Clockwork Orange, A ","Matrix, The ","Usual Suspects, The ","Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live ,"Matrix, The "
+527,2001: A Space Odyssey ,Braveheart ,"Christmas Story, A ",Close Encounters of the Third Kind ,Forrest Gump ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love 
+528,"Shawshank Redemption, The ",Fight Club ,"Godfather, The ",Star Wars: Episode IV - A New Hope ,"Godfather, The ","Godfather: Part II, The ",Casino ,Dead Man Walking ,Donnie Brasco ,"Shawshank Redemption, The "
+529,Star Trek: First Contact ,Executive Decision ,"River Wild, The ",Star Trek II: The Wrath of Khan ,Total Recall ,"Road Warrior, The  ","Abyss, The ",You Only Live Twice ,"Shawshank Redemption, The ",Pulp Fiction 
+530,Braveheart ,"Net, The ",Aladdin ,Babe ,Mr. Holland's Opus ,Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The "
+531,"Matrix, The ","Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+532,Die Hard ,Forrest Gump ,Pulp Fiction ,"Sixth Sense, The ",Star Wars: Episode IV - A New Hope ,Man Bites Dog  ,Freeway ,Trainspotting ,Get Shorty ,"Lock, Stock & Two Smoking Barrels "
+533,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction ,"Silence of the Lambs, The ","Usual Suspects, The "
+534,Braveheart ,Fight Club ,Terminator 2: Judgment Day ,Willy Wonka & the Chocolate Factory ,Desperado ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  
+535,Animal House ,Tommy Boy ,Caddyshack ,Heathers ,"Hudsucker Proxy, The ","Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The ",Fight Club 
+536,Crimson Tide ,"Shawshank Redemption, The ",Speed ,True Lies ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The "
+537,Fight Club ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The ",Fight Club 
+538,Forrest Gump ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+539,Fight Club ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+540,Stargate ,Superman ,Mad Max ,Tron ,Demolition Man ,"Shawshank Redemption, The ",Forrest Gump ,"Silence of the Lambs, The ","Usual Suspects, The ",Schindler's List 
+541,Apollo 13 ,Ghost ,Pulp Fiction ,Dangerous Minds ,Get Shorty ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Get Shorty 
+542,Life Is Beautiful  ,"Shining, The ","Silence of the Lambs, The ","Usual Suspects, The ",Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance ,"Silence of the Lambs, The "
+543,"Shawshank Redemption, The ",Dances with Wolves ,GoldenEye ,Jurassic Park ,Pulp Fiction ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+544,Leaving Las Vegas ,Sense and Sensibility ,Leaving Las Vegas ,"Piano, The ",Jerry Maguire ,Breakfast at Tiffany's ,"Virgin Suicides, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The "
+545,As Good as It Gets ,Saving Private Ryan ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode VI - Return of the Jedi ,Die Hard ,Star Wars: Episode V - The Empire Strikes Back ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman 
+546,Braveheart ,"Matrix, The ",Pulp Fiction ,Saving Private Ryan ,Star Wars: Episode IV - A New Hope ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Get Shorty 
+547,Pulp Fiction ,Amadeus ,Apocalypse Now ,Casablanca ,Fargo ,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting 
+548,Fight Club ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,"Shawshank Redemption, The ",Pulp Fiction ,"Silence of the Lambs, The ",Fight Club 
+549,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,Bullitt ,Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The ","Usual Suspects, The ",American Beauty 
+550,Fight Club ,LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  ,Pulp Fiction ,"Silence of the Lambs, The ",Fight Club ,"Usual Suspects, The "
+551,Rear Window ,Just Cause ,Saboteur ,True Crime ,Blow Out ,"Usual Suspects, The ",Schindler's List ,Star Wars: Episode V - The Empire Strikes Back ,Raiders of the Lost Ark  ,American Beauty 
+552,Goodfellas ,Monty Python's Life of Brian ,"Silence of the Lambs, The ",Star Wars: Episode IV - A New Hope ,Terminator 2: Judgment Day ,Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance 
+553,American History X ,Forrest Gump ,Seven  ,"Shawshank Redemption, The ",Star Wars: Episode IV - A New Hope ,American History X ,"Green Mile, The ",Dead Man Walking ,"Shawshank Redemption, The ",Forrest Gump 
+554,Back to the Future ,Miracle on 34th Street ,"Shawshank Redemption, The ",Toy Story ,"Princess Bride, The ",American History X ,"Godfather: Part II, The ","Green Mile, The ",Casino ,Dead Man Walking 
+555,Indiana Jones and the Last Crusade ,2001: A Space Odyssey ,Close Encounters of the Third Kind ,Ghostbusters  ,Labyrinth ,Yojimbo ,"Ghost and the Darkness, The ","Hidden Fortress, The  ","Touch of Zen, A  ",Commando 
+556,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump 
+557,Batman ,Natural Born Killers ,Heat ,"Net, The ",Ronin ,Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The ",Fight Club ,"Usual Suspects, The "
+558,Forrest Gump ,American Beauty ,Fight Club ,Life Is Beautiful  ,Rain Man ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love 
+559,Dances with Wolves ,Quiz Show ,Schindler's List ,Tombstone ,Waterworld ,Full Metal Jacket ,Platoon ,Glory ,"Deer Hunter, The ",Patton 
+560,"Shawshank Redemption, The ",Aliens ,"Clockwork Orange, A ",Dances with Wolves ,"Godfather, The ","Godfather, The ","Godfather: Part II, The ",Goodfellas ,Casino ,Dead Man Walking 
+561,"Godfather, The ",Monty Python and the Holy Grail ,Aladdin ,Blade Runner ,Dances with Wolves ,"Godfather: Part II, The ","Green Mile, The ",Casino ,Dead Man Walking ,Donnie Brasco 
+562,Indiana Jones and the Last Crusade ,Jurassic Park ,Raiders of the Lost Ark  ,Star Wars: Episode IV - A New Hope ,Back to the Future ,Star Wars: Episode VI - Return of the Jedi ,Stargate ,Star Wars: Episode I - The Phantom Menace ,Superman ,Mad Max 
+563,"Jungle Book, The ","Lion King, The ",Sleeping Beauty ,101 Dalmatians  ,Breakfast at Tiffany's ,Anastasia ,Fantasia 2000 ,Tarzan ,"Secret of NIMH, The ",Song of the South 
+564,Good Will Hunting ,Sixteen Candles ,Casablanca ,American Beauty ,Jerry Maguire ,Sense and Sensibility ,Leaving Las Vegas ,Pulp Fiction ,"Matrix, The ","Silence of the Lambs, The "
+565,"Lion King, The ",Crimson Tide ,Jurassic Park ,"Silence of the Lambs, The ",Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance ,"Matrix, The "
+566,"Silence of the Lambs, The ",Babe ,Beauty and the Beast ,Seven  ,Henry: Portrait of a Serial Killer ,Cure ,"Last House on the Left, The ",Psycho ,True Romance ,"Matrix, The "
+567,One Flew Over the Cuckoo's Nest ,"Shawshank Redemption, The ",Aladdin ,Casablanca ,Fargo ,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+568,"Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The ","Shawshank Redemption, The ","Matrix, The ",Fight Club ,Star Wars: Episode IV - A New Hope 
+569,Crimson Tide ,Apollo 13 ,Braveheart ,"Fugitive, The ","Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+570,American History X ,Full Metal Jacket ,Office Space ,Pulp Fiction ,Blade Runner ,Man Bites Dog  ,Freeway ,Get Shorty ,"Lock, Stock & Two Smoking Barrels ","Few Good Men, A "
+571,"Exorcist, The ",Aladdin ,"American Werewolf in London, An ",Big ,E.T. the Extra-Terrestrial ,Robin Hood ,Hercules ,Oliver & Company ,"Bug's Life, A ","Jungle Book, The "
+572,Blazing Saddles ,Citizen Kane ,Goodfellas ,Planet of the Apes ,"Right Stuff, The ",American History X ,"Green Mile, The ",Casino ,Dead Man Walking ,Donnie Brasco 
+573,Fargo ,Ghostbusters  ,"Clockwork Orange, A ",Good Will Hunting ,"Green Mile, The ",Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Get Shorty 
+574,Dances with Wolves ,Interview with the Vampire: The Vampire Chronicles ,True Grit ,Lonesome Dove ,Ride the High Country ,Quigley Down Under ,Return to Snowy River  ,"Matrix, The ",Forrest Gump ,Fight Club 
+575,Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,"Shawshank Redemption, The ",Forrest Gump ,"Silence of the Lambs, The ",Fight Club ,"Usual Suspects, The "
+576,Armageddon ,"Arrival, The ",Screamers ,Predator 2 ,Predator ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+577,Apocalypse Now ,"Good, the Bad and the Ugly, The  ","Matrix, The ","Usual Suspects, The ",American Beauty ,Predator ,eXistenZ ,They Live ,Hangar 18 ,Screamers 
+578,"Englishman Who Went Up a Hill But Came Down a Mountain, The ",Mickey Blue Eyes ,"Butcher's Wife, The ",Milk Money ,Blame It on Rio ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,"Silence of the Lambs, The "
+579,"Godfather, The ",Apollo 13 ,"Few Good Men, A ",Fight Club ,"Princess Bride, The ",LÃ©on: The Professional   ,Clear and Present Danger ,"Killer, The  ",Hard-Boiled  ,Bullitt 
+580,Office Space ,Donnie Brasco ,Edward Scissorhands ,Natural Born Killers ,"Princess Bride, The ",Big Trouble in Little China ,Romancing the Stone ,Clash of the Titans ,"Three Musketeers, The ","Jewel of the Nile, The "
+581,"Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,Casino ,Pulp Fiction ,"Silence of the Lambs, The ","Usual Suspects, The ",Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back 
+582,"Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live ,"Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump ,"Usual Suspects, The ",Schindler's List 
+583,While You Were Sleeping ,Four Weddings and a Funeral ,Pretty Woman ,Dave ,There's Something About Mary ,"Shawshank Redemption, The ","Matrix, The ",Fight Club ,"Usual Suspects, The ",Star Wars: Episode IV - A New Hope 
+584,Jumanji ,"NeverEnding Story, The ",Escape to Witch Mountain ,Return to Oz ,Alice in Wonderland ,The Cave of the Golden Rose ,"Shawshank Redemption, The ","Matrix, The ",Fight Club ,"Usual Suspects, The "
+585,"Usual Suspects, The ","Godfather: Part II, The ","Shawshank Redemption, The ",Braveheart ,Forrest Gump ,"Godfather: Part II, The ","Green Mile, The ",Dead Man Walking ,"Shawshank Redemption, The ","Matrix, The "
+586,Die Hard ,Forrest Gump ,Gattaca ,Life Is Beautiful  ,Train of Life  ,Shakespeare in Love ,"Graduate, The ","American President, The ",Pulp Fiction ,Forrest Gump 
+587,Apocalypse Now ,Blade Runner ,"Clockwork Orange, A ",Groundhog Day ,L.A. Confidential ,Boccaccio '70 ,Splash ,"Midsummer Night's Dream, A ",Here Comes Mr. Jordan ,"Bell, Book and Candle "
+588,Die Hard ,"French Connection, The ",Ronin ,Dirty Harry ,"Eye for an Eye, An ","Matrix, The ",Fight Club ,Star Wars: Episode IV - A New Hope ,Star Wars: Episode V - The Empire Strikes Back ,Raiders of the Lost Ark  
+589,Braveheart ,"Fugitive, The ",Jurassic Park ,Legends of the Fall ,"Lion King, The ",Saving Private Ryan ,Apocalypse Now ,"Boot, Das  ","Dirty Dozen, The ","Thin Red Line, The "
+590,Being John Malkovich ,M*A*S*H  ,Monty Python's And Now for Something Completely Different ,Monty Python's Life of Brian ,"Truman Show, The ","Discreet Charm of the Bourgeoisie, The  ",Milagro Beanfield War ,That Munchhausen ,Luna Papa ,Lesson Faust 
+591,Raiders of the Lost Ark  ,Indiana Jones and the Last Crusade ,Yojimbo ,"Ghost and the Darkness, The ","Hidden Fortress, The  ","Touch of Zen, A  ","Shawshank Redemption, The ",Pulp Fiction ,"Silence of the Lambs, The ","Usual Suspects, The "
+592,Babe ,Outbreak ,Twister ,"Little Princess, A ","Secret Garden, The ",My Dog Skip ,Old Yeller ,Now and Then ,"Matrix, The ",Fight Club 
+593,Back to the Future ,LÃ©on: The Professional   ,One Flew Over the Cuckoo's Nest ,Pulp Fiction ,Raiders of the Lost Ark  ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Get Shorty 
+594,Forrest Gump ,GoldenEye ,Life Is Beautiful  ,Train of Life  ,"Graduate, The ",M*A*S*H  ,Chasing Amy ,"Shawshank Redemption, The ",Pulp Fiction ,Forrest Gump 
+595,American Beauty ,"Matrix, The ",Star Wars: Episode IV - A New Hope ,Star Wars: Episode VI - Return of the Jedi ,Babe ,"Terminator, The ",Blade Runner ,Predator ,eXistenZ ,They Live 
+596,"Shawshank Redemption, The ",Fargo ,Pulp Fiction ,Saving Private Ryan ,Aladdin ,American History X ,Goodfellas ,Casino ,Dead Man Walking ,Carlito's Way 
+597,Being John Malkovich ,Fargo ,Gattaca ,Goodfellas ,Mary Poppins ,Pulp Fiction ,Man Bites Dog  ,Freeway ,Taxi Driver ,"Few Good Men, A "
+598,Big Trouble in Little China ,Romancing the Stone ,Clash of the Titans ,"Three Musketeers, The ",Last Action Hero ,"Shawshank Redemption, The ",Pulp Fiction ,"Matrix, The ",Forrest Gump ,Fight Club 
+599,Schindler's List ,Dances with Wolves ,Babe ,Butch Cassidy and the Sundance Kid ,Fatal Attraction ,Patton ,Ran ,Schindler's List ,One Flew Over the Cuckoo's Nest ,Dances with Wolves 
+600,Caddyshack ,Dances with Wolves ,Dazed and Confused ,Good Will Hunting ,LÃ©on: The Professional   ,Leaving Las Vegas ,"Piano, The ",William Shakespeare's Romeo + Juliet,Dangerous Liaisons ,"Usual Suspects, The "
+601,Pulp Fiction ,"Silence of the Lambs, The ",Fargo ,Man Bites Dog  ,Freeway ,Taxi Driver ,Trainspotting ,Pulp Fiction ,Forrest Gump ,"Silence of the Lambs, The "
+602,"Ice Storm, The ","Right Stuff, The ",Children of a Lesser God ,Kramer vs. Kramer ,Wall Street ,"Matrix, The ",Fight Club ,Star Wars: Episode V - The Empire Strikes Back ,Raiders of the Lost Ark  ,American Beauty 
+603,Monty Python and the Holy Grail ,Stand by Me ,"Usual Suspects, The ",Airplane! ,As Good as It Gets ,Following ,Murder on the Orient Express ,Frantic ,Switchback ,Sherlock Holmes: Terror by Night 
+604,Dances with Wolves ,Carlito's Way ,Crimson Tide ,"Fugitive, The ","Shawshank Redemption, The ","Godfather, The ",American History X ,"Godfather: Part II, The ",Goodfellas ,"Green Mile, The "
+605,Ferris Bueller's Day Off ,Fight Club ,Mrs. Doubtfire ,Raiders of the Lost Ark  ,"Sixth Sense, The ",LÃ©on: The Professional   ,Clear and Present Danger ,Face/Off ,"Killer, The  ",Hard-Boiled  
+606,Fargo ,L.A. Confidential ,Blue Velvet ,Citizen Kane ,Ferris Bueller's Day Off ,Man Bites Dog  ,Freeway ,"Lock, Stock & Two Smoking Barrels ",Get Shorty ,"Few Good Men, A "
+607,Fight Club ,Aliens ,Forrest Gump ,"Princess Bride, The ",Raiders of the Lost Ark  ,Life Is Beautiful  ,Train of Life  ,Sleepless in Seattle ,As Good as It Gets ,Shakespeare in Love 
+608,Heat ,Raiders of the Lost Ark  ,"Princess Bride, The ",Airplane! ,Dead Poets Society ,Yojimbo ,"Hidden Fortress, The  ","Touch of Zen, A  ",Shogun Assassin ,Crippled Avengers   
+609,Clear and Present Danger ,Die Hard: With a Vengeance ,Die Hard ,Heat ,Ronin ,"French Connection, The ",Dirty Harry ,"Matrix, The ","Silence of the Lambs, The ",Fight Club 
+610,One Flew Over the Cuckoo's Nest ,"South Park: Bigger, Longer and Uncut ",American History X ,Clerks ,"Clockwork Orange, A ",Rain Man ,Dead Poets Society ,Amadeus ,What's Eating Gilbert Grape ,Mr. Holland's Opus 
